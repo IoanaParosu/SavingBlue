@@ -3,6 +3,16 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /[Ll]ibrary/
+/Library/
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+
+/Shmop/Library/
+Universal Sound FX/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -57,4 +67,6 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+.aseprite
 

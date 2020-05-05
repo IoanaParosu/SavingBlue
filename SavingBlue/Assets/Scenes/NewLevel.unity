@@ -80416,6 +80416,11 @@ PrefabInstance:
       propertyPath: buttons
       value: 
       objectReference: {fileID: 397617032}
+    - target: {fileID: 3273080737068850217, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
+        type: 3}
+      propertyPath: CurrentSpeed
+      value: 1.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3273080737068850218, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
       propertyPath: m_Constraints

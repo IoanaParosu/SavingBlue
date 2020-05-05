@@ -22048,6 +22048,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5416577631662454851, guid: f09c013a56ee19b4c94d49664d501648,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 6534461342661865517, guid: f09c013a56ee19b4c94d49664d501648,
         type: 3}
       propertyPath: m_LocalPosition.x

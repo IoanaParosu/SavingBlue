@@ -8,7 +8,8 @@ public class Timer : MonoBehaviour
     public Text timerText;
     public float seconds, minutes;
     bool stoptimer = false;
-    int testInt = 34;
+    int whatever = 6;
+    bool yeah = false;
     // Start is called before the first frame update
     void Start()
     {

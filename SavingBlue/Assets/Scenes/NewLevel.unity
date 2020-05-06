@@ -37419,7 +37419,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f8caea64b855d47bdcd7cdb9ff10eb, type: 3}
-  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 1}
+  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -42340,7 +42340,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f8caea64b855d47bdcd7cdb9ff10eb, type: 3}
-  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 1}
+  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -56320,7 +56320,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f8caea64b855d47bdcd7cdb9ff10eb, type: 3}
-  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 1}
+  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -59868,7 +59868,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f8caea64b855d47bdcd7cdb9ff10eb, type: 3}
-  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 1}
+  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -67217,7 +67217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1429135484
 Transform:
   m_ObjectHideFlags: 0
@@ -82145,7 +82145,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 88f8caea64b855d47bdcd7cdb9ff10eb, type: 3}
-  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 1}
+  m_Color: {r: 0.5283019, g: 0.33641866, b: 0.33641866, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -99930,12 +99930,12 @@ PrefabInstance:
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8
+      value: -31.8
       objectReference: {fileID: 0}
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.4
+      value: 34.5
       objectReference: {fileID: 0}
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}

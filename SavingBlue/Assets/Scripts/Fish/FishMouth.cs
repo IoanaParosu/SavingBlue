@@ -22,6 +22,7 @@ public class FishMouth : MonoBehaviour
     {
         //spR = GetComponent<SpriteRenderer>();
         mouth.enabled = false;
+        healthBar = FindObjectOfType<HealthBar>().GetComponent<HealthBar>();
         healthBar.SetMaxTox(maxTox);
         currentTox = 0;
         currentFood = 1;

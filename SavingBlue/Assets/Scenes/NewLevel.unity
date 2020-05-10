@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 481545}
   m_Layer: 0
   m_Name: wall straight
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 15106691}
   m_Layer: 0
   m_Name: romb wall (27)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 17267564}
   m_Layer: 0
   m_Name: wall slide
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1578,7 +1578,7 @@ GameObject:
   - component: {fileID: 24287959}
   m_Layer: 0
   m_Name: wall bumpy and flat (23)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2064,7 +2064,7 @@ GameObject:
   - component: {fileID: 27489086}
   m_Layer: 0
   m_Name: wall bumpy and flat (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2507,7 +2507,7 @@ GameObject:
   - component: {fileID: 35245315}
   m_Layer: 0
   m_Name: wall bump (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2725,7 +2725,7 @@ GameObject:
   - component: {fileID: 36622888}
   m_Layer: 0
   m_Name: wall slide (20)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3096,7 +3096,7 @@ GameObject:
   - component: {fileID: 42908109}
   m_Layer: 0
   m_Name: wall 1 (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3405,7 +3405,7 @@ GameObject:
   - component: {fileID: 53708445}
   m_Layer: 0
   m_Name: wall bump (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3648,7 +3648,7 @@ GameObject:
   - component: {fileID: 55117479}
   m_Layer: 0
   m_Name: dunkesprite
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3868,7 +3868,7 @@ GameObject:
   - component: {fileID: 58575244}
   m_Layer: 0
   m_Name: romb wall (18)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4097,7 +4097,7 @@ GameObject:
   - component: {fileID: 62353075}
   m_Layer: 0
   m_Name: wall bumpy and flat (25)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4378,7 +4378,7 @@ GameObject:
   - component: {fileID: 64313345}
   m_Layer: 0
   m_Name: wall bump (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4606,7 +4606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -94.915}
 --- !u!1 &68813640
 GameObject:
@@ -4621,7 +4621,7 @@ GameObject:
   - component: {fileID: 68813643}
   m_Layer: 0
   m_Name: romb wall (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4917,7 +4917,7 @@ GameObject:
   - component: {fileID: 69521475}
   m_Layer: 0
   m_Name: plasstic food 3
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5057,7 +5057,7 @@ GameObject:
   - component: {fileID: 70450632}
   m_Layer: 0
   m_Name: wall bump (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5477,7 +5477,7 @@ GameObject:
   - component: {fileID: 74656258}
   m_Layer: 0
   m_Name: wall slide (16)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5799,7 +5799,7 @@ PrefabInstance:
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -5815,6 +5815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -5933,6 +5938,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -5984,6 +5999,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -2.06
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -6024,6 +6044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -6091,6 +6116,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -6183,6 +6213,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -6217,6 +6252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -6264,6 +6304,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -6371,10 +6416,20 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -6908,7 +6963,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -106.26}
 --- !u!1 &98856401
 GameObject:
@@ -6923,7 +6978,7 @@ GameObject:
   - component: {fileID: 98856404}
   m_Layer: 0
   m_Name: wall bump (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7085,7 +7140,7 @@ GameObject:
   - component: {fileID: 99935089}
   m_Layer: 0
   m_Name: wall slide (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7440,7 +7495,7 @@ GameObject:
   - component: {fileID: 103159348}
   m_Layer: 0
   m_Name: wall straight (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8316,7 +8371,7 @@ GameObject:
   - component: {fileID: 113544302}
   m_Layer: 0
   m_Name: wall edge (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8671,7 +8726,7 @@ GameObject:
   - component: {fileID: 125944823}
   m_Layer: 0
   m_Name: wall edge
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8864,7 +8919,7 @@ GameObject:
   - component: {fileID: 127335113}
   m_Layer: 0
   m_Name: wall bumpy and flat (26)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9145,7 +9200,7 @@ GameObject:
   - component: {fileID: 129383399}
   m_Layer: 0
   m_Name: wall slide (18)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9354,7 +9409,7 @@ GameObject:
   - component: {fileID: 135621656}
   m_Layer: 0
   m_Name: wall bumpy and flat (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9797,7 +9852,7 @@ GameObject:
   - component: {fileID: 138864454}
   m_Layer: 0
   m_Name: romb wall (15)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10253,7 +10308,7 @@ GameObject:
   - component: {fileID: 145126240}
   m_Layer: 0
   m_Name: Storcolaflaskasprite (2)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10576,7 +10631,7 @@ GameObject:
   - component: {fileID: 148291571}
   m_Layer: 0
   m_Name: romb wall (23)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10805,7 +10860,7 @@ GameObject:
   - component: {fileID: 151240551}
   m_Layer: 0
   m_Name: wall 1 (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11108,7 +11163,7 @@ GameObject:
   - component: {fileID: 166664643}
   m_Layer: 0
   m_Name: wall bumpy and flat (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12022,7 +12077,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 124.01101}
 --- !u!1 &198268963
 GameObject:
@@ -12199,7 +12254,7 @@ GameObject:
   - component: {fileID: 208940191}
   m_Layer: 0
   m_Name: wall bump (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12361,7 +12416,7 @@ GameObject:
   - component: {fileID: 211092551}
   m_Layer: 0
   m_Name: wall bump (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12523,7 +12578,7 @@ GameObject:
   - component: {fileID: 213405089}
   m_Layer: 0
   m_Name: wall 1
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12745,7 +12800,7 @@ GameObject:
   - component: {fileID: 213570975}
   m_Layer: 0
   m_Name: wall bumpy and flat
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13188,7 +13243,7 @@ GameObject:
   - component: {fileID: 220277189}
   m_Layer: 0
   m_Name: wall bumpy and flat
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14442,7 +14497,7 @@ GameObject:
   - component: {fileID: 252255785}
   m_Layer: 0
   m_Name: wall bump (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14912,7 +14967,7 @@ GameObject:
   - component: {fileID: 262271220}
   m_Layer: 0
   m_Name: wall straight
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15072,7 +15127,7 @@ GameObject:
   - component: {fileID: 263720627}
   m_Layer: 0
   m_Name: romb wall (17)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15301,7 +15356,7 @@ GameObject:
   - component: {fileID: 264286133}
   m_Layer: 0
   m_Name: wall bump (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15777,7 +15832,7 @@ GameObject:
   - component: {fileID: 272770180}
   m_Layer: 0
   m_Name: wall edge (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16051,7 +16106,7 @@ GameObject:
   - component: {fileID: 277444625}
   m_Layer: 0
   m_Name: Fork 1 (6)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16261,7 +16316,7 @@ GameObject:
   - component: {fileID: 282484750}
   m_Layer: 0
   m_Name: wall bump (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17018,7 +17073,7 @@ Transform:
   - {fileID: 423775864}
   - {fileID: 615524283}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297071370
 GameObject:
@@ -17973,7 +18028,7 @@ GameObject:
   - component: {fileID: 325210999}
   m_Layer: 0
   m_Name: wall bumpy and flat (24)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18254,7 +18309,7 @@ GameObject:
   - component: {fileID: 326383448}
   m_Layer: 0
   m_Name: wall slide (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18626,7 +18681,7 @@ GameObject:
   - component: {fileID: 338683310}
   m_Layer: 0
   m_Name: wall bumpy and flat (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19359,7 +19414,7 @@ GameObject:
   - component: {fileID: 344945655}
   m_Layer: 0
   m_Name: wall straight
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19600,7 +19655,7 @@ GameObject:
   - component: {fileID: 349428473}
   m_Layer: 0
   m_Name: wall straight (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20084,7 +20139,7 @@ GameObject:
   - component: {fileID: 355817836}
   m_Layer: 0
   m_Name: wall bump (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20489,7 +20544,7 @@ GameObject:
   - component: {fileID: 365067816}
   m_Layer: 0
   m_Name: romb wall (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20718,7 +20773,7 @@ GameObject:
   - component: {fileID: 367637140}
   m_Layer: 0
   m_Name: romb wall (33)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20945,7 +21000,7 @@ GameObject:
   - component: {fileID: 369162080}
   m_Layer: 0
   m_Name: walls player level
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21203,7 +21258,7 @@ Transform:
   - {fileID: 387537494}
   - {fileID: 1359157571}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &370297911
 GameObject:
@@ -21218,7 +21273,7 @@ GameObject:
   - component: {fileID: 370297912}
   m_Layer: 0
   m_Name: Fork 1 (4)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21428,7 +21483,7 @@ GameObject:
   - component: {fileID: 375454886}
   m_Layer: 0
   m_Name: romb wall
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21771,7 +21826,7 @@ GameObject:
   - component: {fileID: 387356734}
   m_Layer: 0
   m_Name: romb wall (43)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22000,7 +22055,7 @@ GameObject:
   - component: {fileID: 387537495}
   m_Layer: 0
   m_Name: romb wall (44)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22456,7 +22511,7 @@ GameObject:
   - component: {fileID: 391179347}
   m_Layer: 0
   m_Name: Storcolaflaskasprite
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23161,7 +23216,7 @@ GameObject:
   - component: {fileID: 402526999}
   m_Layer: 0
   m_Name: wall turn
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23714,7 +23769,7 @@ GameObject:
   - component: {fileID: 417523495}
   m_Layer: 0
   m_Name: romb wall
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24111,7 +24166,7 @@ GameObject:
   - component: {fileID: 439912139}
   m_Layer: 0
   m_Name: wall bumpy and flat (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24713,7 +24768,7 @@ GameObject:
   - component: {fileID: 448420143}
   m_Layer: 0
   m_Name: wall slide
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24942,7 +24997,7 @@ Transform:
   - {fileID: 902215586}
   - {fileID: 1164484945}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &450455174
 GameObject:
@@ -24957,7 +25012,7 @@ GameObject:
   - component: {fileID: 450455177}
   m_Layer: 0
   m_Name: romb wall (21)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25494,7 +25549,7 @@ GameObject:
   - component: {fileID: 455883377}
   m_Layer: 0
   m_Name: romb wall (24)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25804,7 +25859,7 @@ GameObject:
   - component: {fileID: 456422793}
   m_Layer: 0
   m_Name: wall slide (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26580,7 +26635,7 @@ GameObject:
   - component: {fileID: 494408470}
   m_Layer: 0
   m_Name: wall bump
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26904,7 +26959,7 @@ GameObject:
   - component: {fileID: 498290324}
   m_Layer: 0
   m_Name: romb wall (34)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27525,7 +27580,7 @@ GameObject:
   - component: {fileID: 508498827}
   m_Layer: 0
   m_Name: wall bump (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27930,7 +27985,7 @@ GameObject:
   - component: {fileID: 512762658}
   m_Layer: 0
   m_Name: wall bump (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28479,7 +28534,7 @@ GameObject:
   - component: {fileID: 531588678}
   m_Layer: 0
   m_Name: romb wall (29)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28806,7 +28861,7 @@ PrefabInstance:
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -28822,6 +28877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -99.575005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -28930,6 +28990,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -28981,6 +29051,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -29021,6 +29096,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -29088,6 +29168,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -29180,6 +29265,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -29214,6 +29304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -29256,6 +29351,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -29363,10 +29463,20 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -30277,7 +30387,7 @@ GameObject:
   - component: {fileID: 542847595}
   m_Layer: 0
   m_Name: wall slide (19)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30729,7 +30839,7 @@ GameObject:
   - component: {fileID: 555584494}
   m_Layer: 0
   m_Name: romb wall (28)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31024,7 +31134,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -80.699005}
 --- !u!1 &563410167
 GameObject:
@@ -31540,7 +31650,7 @@ GameObject:
   - component: {fileID: 576294190}
   m_Layer: 0
   m_Name: wall straight (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31781,7 +31891,7 @@ GameObject:
   - component: {fileID: 578068251}
   m_Layer: 0
   m_Name: romb wall (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32172,7 +32282,7 @@ GameObject:
   - component: {fileID: 583443586}
   m_Layer: 0
   m_Name: wall 1 (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32388,6 +32498,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 276434826186834570, guid: f09c013a56ee19b4c94d49664d501648,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wheel
+      objectReference: {fileID: 0}
     - target: {fileID: 1906421963684401673, guid: f09c013a56ee19b4c94d49664d501648,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -32504,6 +32619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel
       objectReference: {fileID: 0}
+    - target: {fileID: 8645702167091955332, guid: f09c013a56ee19b4c94d49664d501648,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wheel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f09c013a56ee19b4c94d49664d501648, type: 3}
 --- !u!1 &589959695
@@ -32519,7 +32639,7 @@ GameObject:
   - component: {fileID: 589959698}
   m_Layer: 0
   m_Name: wall edge
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33376,7 +33496,7 @@ Transform:
   m_LocalScale: {x: 9.976914, y: 44.967934, z: 7.1263676}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &600993686
 SpriteRenderer:
@@ -34507,7 +34627,7 @@ GameObject:
   - component: {fileID: 611377270}
   m_Layer: 0
   m_Name: wall straight (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35140,7 +35260,7 @@ GameObject:
   - component: {fileID: 625459303}
   m_Layer: 0
   m_Name: wall straight (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35381,7 +35501,7 @@ GameObject:
   - component: {fileID: 632329354}
   m_Layer: 0
   m_Name: wall straight (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35541,7 +35661,7 @@ GameObject:
   - component: {fileID: 633409497}
   m_Layer: 0
   m_Name: Fork 1
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35670,7 +35790,7 @@ GameObject:
   - component: {fileID: 636527934}
   m_Layer: 0
   m_Name: Storcolaflaskasprite (1)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36009,7 +36129,7 @@ GameObject:
   - component: {fileID: 641227604}
   m_Layer: 0
   m_Name: wall bump (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36171,7 +36291,7 @@ GameObject:
   - component: {fileID: 647100913}
   m_Layer: 0
   m_Name: wall edge (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36364,7 +36484,7 @@ GameObject:
   - component: {fileID: 648290179}
   m_Layer: 0
   m_Name: romb wall (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36836,7 +36956,7 @@ GameObject:
   - component: {fileID: 661517110}
   m_Layer: 0
   m_Name: romb wall
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37065,7 +37185,7 @@ GameObject:
   - component: {fileID: 661705983}
   m_Layer: 0
   m_Name: plastic knife 1 (1)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37378,7 +37498,7 @@ GameObject:
   - component: {fileID: 667739030}
   m_Layer: 0
   m_Name: wall slide (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37668,7 +37788,7 @@ GameObject:
   - component: {fileID: 671988399}
   m_Layer: 0
   m_Name: romb wall (36)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38059,7 +38179,7 @@ GameObject:
   - component: {fileID: 677390831}
   m_Layer: 0
   m_Name: wall slide (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38268,7 +38388,7 @@ GameObject:
   - component: {fileID: 678193381}
   m_Layer: 0
   m_Name: Plastic obejcts
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38412,7 +38532,7 @@ GameObject:
   - component: {fileID: 679932726}
   m_Layer: 0
   m_Name: wall straight (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38734,7 +38854,7 @@ GameObject:
   - component: {fileID: 684139102}
   m_Layer: 0
   m_Name: wall bumpy and flat
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39096,7 +39216,7 @@ GameObject:
   - component: {fileID: 695268543}
   m_Layer: 0
   m_Name: wall 1 (17)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39399,7 +39519,7 @@ GameObject:
   - component: {fileID: 701545538}
   m_Layer: 0
   m_Name: wall bumpy and flat (33)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39746,7 +39866,7 @@ Transform:
   m_LocalScale: {x: 0.815309, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -62.999004}
 --- !u!1 &704595035
 GameObject:
@@ -39761,7 +39881,7 @@ GameObject:
   - component: {fileID: 704595038}
   m_Layer: 0
   m_Name: wall bumpy and flat (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40174,7 +40294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &717080696
 GameObject:
@@ -41212,7 +41332,7 @@ GameObject:
   - component: {fileID: 718204969}
   m_Layer: 0
   m_Name: wall edge (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41783,7 +41903,7 @@ Transform:
   m_LocalScale: {x: 0.232, y: 0.232, z: 0.232}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.714005}
 --- !u!1 &734157128
 GameObject:
@@ -41840,7 +41960,7 @@ Transform:
   - {fileID: 1345332471}
   - {fileID: 277444627}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736675890
 GameObject:
@@ -41855,7 +41975,7 @@ GameObject:
   - component: {fileID: 736675893}
   m_Layer: 0
   m_Name: wall bumpy and flat (30)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42136,7 +42256,7 @@ GameObject:
   - component: {fileID: 737480449}
   m_Layer: 0
   m_Name: wall slide (25)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42507,7 +42627,7 @@ GameObject:
   - component: {fileID: 741066088}
   m_Layer: 0
   m_Name: wall bumpy and flat (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42869,7 +42989,7 @@ GameObject:
   - component: {fileID: 743888034}
   m_Layer: 0
   m_Name: wall edge
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43305,7 +43425,7 @@ GameObject:
   - component: {fileID: 759482785}
   m_Layer: 0
   m_Name: wall bump
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44156,7 +44276,7 @@ Transform:
   - {fileID: 1120442126}
   - {fileID: 1097878876}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &785061831
 GameObject:
@@ -44252,7 +44372,7 @@ GameObject:
   - component: {fileID: 788200805}
   m_Layer: 0
   m_Name: wall bumpy and flat (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45146,7 +45266,7 @@ GameObject:
   - component: {fileID: 806972795}
   m_Layer: 0
   m_Name: wall edge (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45339,7 +45459,7 @@ GameObject:
   - component: {fileID: 808070726}
   m_Layer: 0
   m_Name: wall straight (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45646,7 +45766,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.588}
 --- !u!1 &810784172
 GameObject:
@@ -46067,7 +46187,7 @@ GameObject:
   - component: {fileID: 816872667}
   m_Layer: 0
   m_Name: wall edge (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46543,7 +46663,7 @@ GameObject:
   - component: {fileID: 819308066}
   m_Layer: 0
   m_Name: wall 1 (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46784,7 +46904,7 @@ Transform:
   - {fileID: 398004827}
   - {fileID: 1409046776}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &821552921
 GameObject:
@@ -47210,7 +47330,7 @@ GameObject:
   - component: {fileID: 838334847}
   m_Layer: 0
   m_Name: wall slide (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47468,6 +47588,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -36.659
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -47575,6 +47700,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -47616,6 +47751,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -47656,6 +47796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -47723,6 +47868,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -47815,6 +47965,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -47849,6 +48004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -47891,6 +48051,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -47998,10 +48163,20 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -48735,7 +48910,7 @@ GameObject:
   - component: {fileID: 848512965}
   m_Layer: 0
   m_Name: wall bump (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48897,7 +49072,7 @@ GameObject:
   - component: {fileID: 851152681}
   m_Layer: 0
   m_Name: wall bumpy and flat (35)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49178,7 +49353,7 @@ GameObject:
   - component: {fileID: 853598349}
   m_Layer: 0
   m_Name: wall bumpy and flat
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49767,7 +49942,7 @@ GameObject:
   - component: {fileID: 861756814}
   m_Layer: 0
   m_Name: romb wall (37)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50272,7 +50447,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 107.57201}
 --- !u!1 &873035998
 GameObject:
@@ -50287,7 +50462,7 @@ GameObject:
   - component: {fileID: 873036001}
   m_Layer: 0
   m_Name: wall slide (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50496,7 +50671,7 @@ GameObject:
   - component: {fileID: 876782422}
   m_Layer: 0
   m_Name: wall edge (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50770,7 +50945,7 @@ GameObject:
   - component: {fileID: 879244829}
   m_Layer: 0
   m_Name: wall straight (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51115,7 +51290,7 @@ GameObject:
   - component: {fileID: 896347820}
   m_Layer: 0
   m_Name: wall edge (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51308,7 +51483,7 @@ GameObject:
   - component: {fileID: 896827365}
   m_Layer: 0
   m_Name: wall bumpy and flat (36)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51878,7 +52053,7 @@ GameObject:
   - component: {fileID: 903484513}
   m_Layer: 0
   m_Name: wall bumpy and flat (38)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52159,7 +52334,7 @@ GameObject:
   - component: {fileID: 907326117}
   m_Layer: 0
   m_Name: wall bumpy and flat (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52440,7 +52615,7 @@ GameObject:
   - component: {fileID: 907525109}
   m_Layer: 0
   m_Name: wall edge
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52690,7 +52865,7 @@ Transform:
   - {fileID: 1410094373}
   - {fileID: 925059971}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909450113
 GameObject:
@@ -52786,7 +52961,7 @@ GameObject:
   - component: {fileID: 911702322}
   m_Layer: 0
   m_Name: wall slide
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53481,7 +53656,7 @@ GameObject:
   - component: {fileID: 934067722}
   m_Layer: 0
   m_Name: romb wall (16)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53756,7 +53931,7 @@ GameObject:
   - component: {fileID: 935106206}
   m_Layer: 0
   m_Name: plastic knife 1
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53880,7 +54055,7 @@ GameObject:
   - component: {fileID: 936225723}
   m_Layer: 0
   m_Name: wall slide (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54089,7 +54264,7 @@ GameObject:
   - component: {fileID: 938158587}
   m_Layer: 0
   m_Name: wall straight (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54450,7 +54625,7 @@ GameObject:
   - component: {fileID: 946630126}
   m_Layer: 0
   m_Name: wall edge (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54643,7 +54818,7 @@ GameObject:
   - component: {fileID: 951624402}
   m_Layer: 0
   m_Name: wall 1 (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55216,7 +55391,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959778734}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 43e76da04e9c48146a56f9ec4be3c67d, type: 3}
@@ -55312,7 +55487,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959778734}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9d1c290acc696124ca8e903623c84cf1, type: 3}
@@ -55414,7 +55589,7 @@ GameObject:
   - component: {fileID: 962238645}
   m_Layer: 0
   m_Name: wall bumpy and flat (31)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55857,7 +56032,7 @@ GameObject:
   - component: {fileID: 965703531}
   m_Layer: 0
   m_Name: plastic knife 1
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56662,7 +56837,7 @@ GameObject:
   - component: {fileID: 977298941}
   m_Layer: 0
   m_Name: wall bump (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56905,7 +57080,7 @@ GameObject:
   - component: {fileID: 985402025}
   m_Layer: 0
   m_Name: romb wall (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57134,7 +57309,7 @@ GameObject:
   - component: {fileID: 988965338}
   m_Layer: 0
   m_Name: romb wall (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57454,7 +57629,7 @@ GameObject:
   - component: {fileID: 992007295}
   m_Layer: 0
   m_Name: wall slide (24)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57891,7 +58066,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -70.258}
 --- !u!1001 &997185978
 PrefabInstance:
@@ -57938,7 +58113,7 @@ PrefabInstance:
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -57954,6 +58129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 65.582
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -58062,6 +58242,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -58113,6 +58303,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -58153,6 +58348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -58220,6 +58420,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -58312,6 +58517,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -58346,6 +58556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -58388,6 +58603,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -58495,10 +58715,20 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -59561,7 +59791,7 @@ GameObject:
   - component: {fileID: 1006778097}
   m_Layer: 0
   m_Name: wall bumpy and flat (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60388,7 +60618,7 @@ GameObject:
   - component: {fileID: 1027974780}
   m_Layer: 0
   m_Name: wall edge (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61067,7 +61297,7 @@ GameObject:
   - component: {fileID: 1052508933}
   m_Layer: 0
   m_Name: wall straight (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61227,7 +61457,7 @@ GameObject:
   - component: {fileID: 1053119004}
   m_Layer: 0
   m_Name: wall bump (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61485,7 +61715,7 @@ GameObject:
   - component: {fileID: 1063089528}
   m_Layer: 0
   m_Name: Fork 2
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61851,7 +62081,7 @@ GameObject:
   - component: {fileID: 1072964051}
   m_Layer: 0
   m_Name: wall turn (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62356,7 +62586,7 @@ GameObject:
   - component: {fileID: 1083031992}
   m_Layer: 0
   m_Name: wall 1 (14)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62578,7 +62808,7 @@ GameObject:
   - component: {fileID: 1090266166}
   m_Layer: 0
   m_Name: romb wall (31)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63319,7 +63549,7 @@ GameObject:
   - component: {fileID: 1100661459}
   m_Layer: 0
   m_Name: wall 1 (15)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64011,7 +64241,7 @@ GameObject:
   - component: {fileID: 1119528456}
   m_Layer: 0
   m_Name: wall bumpy and flat (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64684,7 +64914,7 @@ GameObject:
   - component: {fileID: 1123889056}
   m_Layer: 0
   m_Name: romb wall (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64994,7 +65224,7 @@ GameObject:
   - component: {fileID: 1124713208}
   m_Layer: 0
   m_Name: wall bumpy and flat (27)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65437,7 +65667,7 @@ GameObject:
   - component: {fileID: 1139167293}
   m_Layer: 0
   m_Name: wall bumpy and flat (37)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65718,7 +65948,7 @@ GameObject:
   - component: {fileID: 1140907201}
   m_Layer: 0
   m_Name: wall 1 (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66021,7 +66251,7 @@ GameObject:
   - component: {fileID: 1154218323}
   m_Layer: 0
   m_Name: wall straight (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66590,7 +66820,7 @@ GameObject:
   - component: {fileID: 1166651759}
   m_Layer: 0
   m_Name: romb wall (32)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66819,7 +67049,7 @@ GameObject:
   - component: {fileID: 1167094431}
   m_Layer: 0
   m_Name: wall edge (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67012,7 +67242,7 @@ GameObject:
   - component: {fileID: 1167821675}
   m_Layer: 0
   m_Name: wall bumpy and flat (32)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67467,7 +67697,7 @@ GameObject:
   - component: {fileID: 1176327211}
   m_Layer: 0
   m_Name: plastic knife 1 (1)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67916,7 +68146,7 @@ GameObject:
   - component: {fileID: 1192695972}
   m_Layer: 0
   m_Name: wall straight (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68063,6 +68293,86 @@ PolygonCollider2D:
       - {x: -0.35, y: -3.8799999}
       - {x: -0.21, y: -3.76}
       - {x: -0.16, y: -3.6499999}
+--- !u!1 &1195841104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195841106}
+  - component: {fileID: 1195841105}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1195841105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195841104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b454920e5521984b813fc64c602f644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: eatFoodSfx
+    clip: {fileID: 8300000, guid: bbe4db6e16f5b0d4582126f0a34c2899, type: 3}
+    volume: 0
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: eatPlasticSfx
+    clip: {fileID: 8300000, guid: 0a0be83509b5900418e94d57306af94c, type: 3}
+    volume: 0
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: Obstacle
+    clip: {fileID: 8300000, guid: 50b405e16e83c0c4bb05d0cbffbbed92, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: Pushable Object
+    clip: {fileID: 8300000, guid: af4d125f18948304e8850a48c2c651c7, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: WallSfx
+    clip: {fileID: 8300000, guid: 16a196aa3ee7a8b4994b883c33a52614, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: WheelSfx
+    clip: {fileID: 8300000, guid: 7ead6a5178681294da094178fd720063, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+--- !u!4 &1195841106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195841104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7585745, y: 7.0195913, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201575040
 GameObject:
   m_ObjectHideFlags: 0
@@ -68319,7 +68629,7 @@ GameObject:
   - component: {fileID: 1203652588}
   m_Layer: 0
   m_Name: wall bumpy and flat (20)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68843,7 +69153,7 @@ GameObject:
   - component: {fileID: 1216960767}
   m_Layer: 0
   m_Name: wall edge (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69464,7 +69774,7 @@ GameObject:
   - component: {fileID: 1227024818}
   m_Layer: 0
   m_Name: wall 1 (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69945,7 +70255,7 @@ GameObject:
   - component: {fileID: 1241145626}
   m_Layer: 0
   m_Name: wall bump
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70187,7 +70497,7 @@ GameObject:
   - component: {fileID: 1241717840}
   m_Layer: 0
   m_Name: wall bumpy and flat (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70738,7 +71048,7 @@ GameObject:
   - component: {fileID: 1246913955}
   m_Layer: 0
   m_Name: wall slide (23)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71197,7 +71507,7 @@ GameObject:
   - component: {fileID: 1259122792}
   m_Layer: 0
   m_Name: wall bumpy and flat (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71559,7 +71869,7 @@ GameObject:
   - component: {fileID: 1265028599}
   m_Layer: 0
   m_Name: wall bump (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72258,7 +72568,7 @@ Transform:
   - {fileID: 818504677}
   - {fileID: 349976227}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1276177569
 GameObject:
@@ -72273,7 +72583,7 @@ GameObject:
   - component: {fileID: 1276177572}
   m_Layer: 0
   m_Name: wall straight
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72433,7 +72743,7 @@ GameObject:
   - component: {fileID: 1277493725}
   m_Layer: 0
   m_Name: wall slide (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72884,7 +73194,7 @@ GameObject:
   - component: {fileID: 1289307953}
   m_Layer: 0
   m_Name: plastic knife 1 (3)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73128,7 +73438,7 @@ GameObject:
   - component: {fileID: 1294487966}
   m_Layer: 0
   m_Name: wall slide (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73484,7 +73794,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -106.26}
 --- !u!1 &1299229673
 GameObject:
@@ -73661,7 +73971,7 @@ GameObject:
   - component: {fileID: 1302758959}
   m_Layer: 0
   m_Name: wall edge (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74178,7 +74488,7 @@ GameObject:
   - component: {fileID: 1325576472}
   m_Layer: 0
   m_Name: romb wall (25)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74554,7 +74864,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 94.364006}
 --- !u!1 &1332364683
 GameObject:
@@ -74812,7 +75122,7 @@ GameObject:
   - component: {fileID: 1343535871}
   m_Layer: 0
   m_Name: romb wall (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75041,7 +75351,7 @@ GameObject:
   - component: {fileID: 1345332469}
   m_Layer: 0
   m_Name: plastic knife 1 (4)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75164,7 +75474,7 @@ GameObject:
   - component: {fileID: 1345395481}
   m_Layer: 0
   m_Name: Fork 1 (3)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75350,7 +75660,7 @@ Transform:
   - {fileID: 1245359218}
   - {fileID: 663454204}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354067027
 GameObject:
@@ -75736,7 +76046,7 @@ GameObject:
   - component: {fileID: 1362358428}
   m_Layer: 0
   m_Name: romb wall (20)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75965,7 +76275,7 @@ GameObject:
   - component: {fileID: 1362384684}
   m_Layer: 0
   m_Name: wall bumpy and flat (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76246,7 +76556,7 @@ GameObject:
   - component: {fileID: 1363499897}
   m_Layer: 0
   m_Name: Fork 1 (2)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76375,7 +76685,7 @@ GameObject:
   - component: {fileID: 1365327042}
   m_Layer: 0
   m_Name: wall edge (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77038,7 +77348,7 @@ GameObject:
   - component: {fileID: 1388580290}
   m_Layer: 0
   m_Name: wall bumpy and flat (21)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77400,7 +77710,7 @@ GameObject:
   - component: {fileID: 1395688554}
   m_Layer: 0
   m_Name: wall straight (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78031,7 +78341,7 @@ GameObject:
   - component: {fileID: 1411185390}
   m_Layer: 0
   m_Name: wall bump (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78274,7 +78584,7 @@ GameObject:
   - component: {fileID: 1414772497}
   m_Layer: 0
   m_Name: wall bumpy and flat (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78555,7 +78865,7 @@ GameObject:
   - component: {fileID: 1414797882}
   m_Layer: 0
   m_Name: wall 1
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79113,7 +79423,7 @@ Transform:
   - {fileID: 1192394408}
   - {fileID: 945256700}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1431712236 stripped
 Transform:
@@ -79281,7 +79591,7 @@ Transform:
   m_LocalScale: {x: 0.35875785, y: 0.35875785, z: 0.35875785}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -116.993004}
 --- !u!1 &1442899919
 GameObject:
@@ -79524,7 +79834,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 85.951004}
 --- !u!1001 &1446598063
 PrefabInstance:
@@ -79635,7 +79945,7 @@ GameObject:
   - component: {fileID: 1447999258}
   m_Layer: 0
   m_Name: Fork 1
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80137,6 +80447,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 55.532
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -80244,6 +80559,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -80295,6 +80620,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -80335,6 +80665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -80402,6 +80737,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -80494,6 +80834,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -80528,6 +80873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -80570,6 +80920,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -80677,10 +81032,20 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -81414,7 +81779,7 @@ GameObject:
   - component: {fileID: 1464433253}
   m_Layer: 0
   m_Name: romb wall (38)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82626,7 +82991,7 @@ GameObject:
   - component: {fileID: 1482016169}
   m_Layer: 0
   m_Name: romb wall (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82855,7 +83220,7 @@ GameObject:
   - component: {fileID: 1485907556}
   m_Layer: 0
   m_Name: wall bumpy and flat (39)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83136,7 +83501,7 @@ GameObject:
   - component: {fileID: 1486178106}
   m_Layer: 0
   m_Name: wall 1 (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83439,7 +83804,7 @@ GameObject:
   - component: {fileID: 1490402320}
   m_Layer: 0
   m_Name: wall bump (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83601,7 +83966,7 @@ GameObject:
   - component: {fileID: 1493763471}
   m_Layer: 0
   m_Name: romb wall (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83911,7 +84276,7 @@ GameObject:
   - component: {fileID: 1495109525}
   m_Layer: 0
   m_Name: wall bump (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84073,7 +84438,7 @@ GameObject:
   - component: {fileID: 1499275814}
   m_Layer: 0
   m_Name: wall straight (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84299,7 +84664,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -108.343}
 --- !u!1 &1500546984 stripped
 GameObject:
@@ -85209,7 +85574,7 @@ GameObject:
   - component: {fileID: 1557282064}
   m_Layer: 0
   m_Name: wall bumpy and flat (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85490,7 +85855,7 @@ GameObject:
   - component: {fileID: 1558621684}
   m_Layer: 0
   m_Name: wall slide (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85861,7 +86226,7 @@ GameObject:
   - component: {fileID: 1567561048}
   m_Layer: 0
   m_Name: wall straight (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86021,7 +86386,7 @@ GameObject:
   - component: {fileID: 1568844590}
   m_Layer: 0
   m_Name: romb wall
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86316,7 +86681,7 @@ Transform:
   m_LocalScale: {x: 0.469, y: 0.469, z: 0.469}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -69.44601}
 --- !u!1 &1572393232
 GameObject:
@@ -86382,7 +86747,7 @@ Transform:
   - {fileID: 1581949881}
   - {fileID: 1203130257}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1574934586
 GameObject:
@@ -87084,7 +87449,7 @@ GameObject:
   - component: {fileID: 1585195653}
   m_Layer: 0
   m_Name: wall slide (21)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87293,7 +87658,7 @@ GameObject:
   - component: {fileID: 1585992102}
   m_Layer: 0
   m_Name: romb wall (41)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87522,7 +87887,7 @@ GameObject:
   - component: {fileID: 1586075900}
   m_Layer: 0
   m_Name: wall slide (15)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87974,7 +88339,7 @@ GameObject:
   - component: {fileID: 1595687898}
   m_Layer: 0
   m_Name: wall straight (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88134,7 +88499,7 @@ GameObject:
   - component: {fileID: 1604035475}
   m_Layer: 0
   m_Name: wall slide (7)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88424,7 +88789,7 @@ GameObject:
   - component: {fileID: 1611244935}
   m_Layer: 0
   m_Name: wall bump (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88667,7 +89032,7 @@ GameObject:
   - component: {fileID: 1613057358}
   m_Layer: 0
   m_Name: wall slide (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88957,7 +89322,7 @@ GameObject:
   - component: {fileID: 1619518476}
   m_Layer: 0
   m_Name: wall slide
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89166,7 +89531,7 @@ GameObject:
   - component: {fileID: 1621067206}
   m_Layer: 0
   m_Name: wall bumpy and flat
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89834,7 +90199,7 @@ GameObject:
   - component: {fileID: 1632772145}
   m_Layer: 0
   m_Name: wall 1 (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90122,7 +90487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -70.913}
 --- !u!1 &1634790775
 GameObject:
@@ -90137,7 +90502,7 @@ GameObject:
   - component: {fileID: 1634790778}
   m_Layer: 0
   m_Name: wall slide (11)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90346,7 +90711,7 @@ GameObject:
   - component: {fileID: 1636384497}
   m_Layer: 0
   m_Name: wall slide (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90717,7 +91082,7 @@ GameObject:
   - component: {fileID: 1637648430}
   m_Layer: 0
   m_Name: wall slide (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91361,7 +91726,7 @@ GameObject:
   - component: {fileID: 1647993914}
   m_Layer: 0
   m_Name: wall bump
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91669,7 +92034,7 @@ GameObject:
   - component: {fileID: 1656971592}
   m_Layer: 0
   m_Name: wall bump (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92356,7 +92721,7 @@ GameObject:
   - component: {fileID: 1683604665}
   m_Layer: 0
   m_Name: wall turn
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92666,7 +93031,7 @@ GameObject:
   - component: {fileID: 1690912804}
   m_Layer: 0
   m_Name: romb wall (19)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92895,7 +93260,7 @@ GameObject:
   - component: {fileID: 1691140207}
   m_Layer: 0
   m_Name: romb wall (6)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93331,7 +93696,7 @@ GameObject:
   - component: {fileID: 1705376667}
   m_Layer: 0
   m_Name: wall bumpy and flat (16)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93693,7 +94058,7 @@ GameObject:
   - component: {fileID: 1707428065}
   m_Layer: 0
   m_Name: romb wall (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94408,7 +94773,7 @@ GameObject:
   - component: {fileID: 1714084614}
   m_Layer: 0
   m_Name: wall edge (13)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94601,7 +94966,7 @@ GameObject:
   - component: {fileID: 1716011911}
   m_Layer: 0
   m_Name: wall 1 (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94904,7 +95269,7 @@ GameObject:
   - component: {fileID: 1720226708}
   m_Layer: 0
   m_Name: Fork 1 (5)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95289,7 +95654,7 @@ GameObject:
   - component: {fileID: 1724172050}
   m_Layer: 0
   m_Name: romb wall (39)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95804,7 +96169,7 @@ GameObject:
   - component: {fileID: 1728642783}
   m_Layer: 0
   m_Name: Storcolaflaskasprite (1)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96030,6 +96395,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -204.60599
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -96147,6 +96517,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -96208,6 +96588,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.72
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -96248,6 +96633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -96315,6 +96705,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -96407,6 +96802,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -96441,6 +96841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -96493,6 +96898,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -96610,10 +97020,20 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.13
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -97471,7 +97891,7 @@ GameObject:
   - component: {fileID: 1732502727}
   m_Layer: 0
   m_Name: wall bumpy and flat (22)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98076,7 +98496,7 @@ GameObject:
   - component: {fileID: 1738117492}
   m_Layer: 0
   m_Name: romb wall (30)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98385,7 +98805,7 @@ GameObject:
   - component: {fileID: 1741662718}
   m_Layer: 0
   m_Name: plastic knife 1 (2)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98710,7 +99130,7 @@ GameObject:
   - component: {fileID: 1749746965}
   m_Layer: 0
   m_Name: Storcolaflaskasprite
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99195,7 +99615,7 @@ GameObject:
   - component: {fileID: 1756668949}
   m_Layer: 0
   m_Name: wall bumpy and flat (29)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99638,7 +100058,7 @@ GameObject:
   - component: {fileID: 1764868069}
   m_Layer: 0
   m_Name: wall bumpy and flat (15)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99919,7 +100339,7 @@ GameObject:
   - component: {fileID: 1769458084}
   m_Layer: 0
   m_Name: wall bump (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100243,7 +100663,7 @@ GameObject:
   - component: {fileID: 1776328565}
   m_Layer: 0
   m_Name: Storcolaflaskasprite (2)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100420,7 +100840,7 @@ GameObject:
   - component: {fileID: 1776376829}
   m_Layer: 0
   m_Name: wall straight (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100693,7 +101113,7 @@ PrefabInstance:
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4748189675406672209, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -100709,6 +101129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -36.659
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675815769185625, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675815769185626, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -100817,6 +101242,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816157337774, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816491415048, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816491415050, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -100868,6 +101303,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba,
         type: 3}
+    - target: {fileID: 6522675816558937053, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816558937054, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Sprite
@@ -100908,6 +101348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816567008810, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816567008812, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -100975,6 +101420,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f,
         type: 3}
+    - target: {fileID: 6522675816712695466, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816712695468, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -101067,6 +101517,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca,
         type: 3}
+    - target: {fileID: 6522675816748810364, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675816748810366, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -101101,6 +101556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interpolate
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522675816997130166, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     - target: {fileID: 6522675816997130168, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
@@ -101143,6 +101603,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4e9047c357aef004aada6eaf0029821a,
         type: 3}
+    - target: {fileID: 6522675817321957432, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 6522675817321957434, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Mass
@@ -101260,10 +101725,20 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.67
       objectReference: {fileID: 0}
+    - target: {fileID: 6522675817416077407, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
+      objectReference: {fileID: 0}
     - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
         type: 3}
       propertyPath: m_Name
       value: Plastic cluster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703855043227543404, guid: 377a182cdd4f83341a75ec5a7a1f44c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plastic Cluster
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6522675816558937052, guid: 377a182cdd4f83341a75ec5a7a1f44c3, type: 3}
@@ -101916,7 +102391,7 @@ GameObject:
   - component: {fileID: 1782454206}
   m_Layer: 0
   m_Name: wall straight (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102076,7 +102551,7 @@ GameObject:
   - component: {fileID: 1786288590}
   m_Layer: 0
   m_Name: wall bumpy and flat (5)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102357,7 +102832,7 @@ GameObject:
   - component: {fileID: 1787425780}
   m_Layer: 0
   m_Name: wall slide (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103507,7 +103982,7 @@ GameObject:
   - component: {fileID: 1793390494}
   m_Layer: 0
   m_Name: wall bumpy and flat (34)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104178,7 +104653,7 @@ Transform:
   m_LocalScale: {x: 0.232, y: 0.232, z: 0.232}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.714005}
 --- !u!1 &1807241165
 GameObject:
@@ -104436,7 +104911,7 @@ GameObject:
   - component: {fileID: 1815243106}
   m_Layer: 0
   m_Name: Storcolaflaskasprite (3)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104736,7 +105211,7 @@ Transform:
   m_LocalScale: {x: 18.262, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -31.886002}
 --- !u!1 &1829101837
 GameObject:
@@ -104751,7 +105226,7 @@ GameObject:
   - component: {fileID: 1829101840}
   m_Layer: 0
   m_Name: wall slide (17)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105041,7 +105516,7 @@ GameObject:
   - component: {fileID: 1834814649}
   m_Layer: 0
   m_Name: romb wall (22)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105419,7 +105894,7 @@ Transform:
   - {fileID: 213719385}
   - {fileID: 1069656299}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847953904
 GameObject:
@@ -105434,7 +105909,7 @@ GameObject:
   - component: {fileID: 1847953907}
   m_Layer: 0
   m_Name: wall slide (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105805,7 +106280,7 @@ GameObject:
   - component: {fileID: 1854579745}
   m_Layer: 0
   m_Name: wall slide (22)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106014,7 +106489,7 @@ GameObject:
   - component: {fileID: 1854995113}
   m_Layer: 0
   m_Name: wall 1 (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106236,7 +106711,7 @@ GameObject:
   - component: {fileID: 1855921341}
   m_Layer: 0
   m_Name: wall bumpy and flat (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106812,7 +107287,7 @@ GameObject:
   - component: {fileID: 1868974489}
   m_Layer: 0
   m_Name: wall slide (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107021,7 +107496,7 @@ GameObject:
   - component: {fileID: 1869489495}
   m_Layer: 0
   m_Name: wall straight (9)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107247,7 +107722,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -71.115005}
 --- !u!1 &1869983923
 GameObject:
@@ -107343,7 +107818,7 @@ GameObject:
   - component: {fileID: 1873435992}
   m_Layer: 0
   m_Name: romb wall (35)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107734,7 +108209,7 @@ GameObject:
   - component: {fileID: 1876112099}
   m_Layer: 0
   m_Name: wall slide (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108024,7 +108499,7 @@ GameObject:
   - component: {fileID: 1879460063}
   m_Layer: 0
   m_Name: wall bumpy and flat (18)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108386,7 +108861,7 @@ GameObject:
   - component: {fileID: 1892654107}
   m_Layer: 0
   m_Name: romb wall (12)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108891,7 +109366,7 @@ GameObject:
   - component: {fileID: 1901915963}
   m_Layer: 0
   m_Name: wall slide (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109246,7 +109721,7 @@ GameObject:
   - component: {fileID: 1904119276}
   m_Layer: 0
   m_Name: romb wall (42)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109938,7 +110413,7 @@ GameObject:
   - component: {fileID: 1920419873}
   m_Layer: 0
   m_Name: wall bumpy and flat (17)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110298,7 +110773,7 @@ GameObject:
   - component: {fileID: 1922761201}
   m_Layer: 0
   m_Name: Plastic Clusters
-  m_TagString: Untagged
+  m_TagString: Plastic Cluster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110322,7 +110797,7 @@ Transform:
   - {fileID: 845073163}
   - {fileID: 1460467581}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1923521134
 GameObject:
@@ -110499,7 +110974,7 @@ GameObject:
   - component: {fileID: 1926487207}
   m_Layer: 0
   m_Name: romb wall (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110728,7 +111203,7 @@ GameObject:
   - component: {fileID: 1934428566}
   m_Layer: 0
   m_Name: wall slide (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111018,7 +111493,7 @@ GameObject:
   - component: {fileID: 1937966442}
   m_Layer: 0
   m_Name: wall bump (3)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111180,7 +111655,7 @@ GameObject:
   - component: {fileID: 1941208325}
   m_Layer: 0
   m_Name: wall 1
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111570,7 +112045,7 @@ GameObject:
   - component: {fileID: 1958172719}
   m_Layer: 0
   m_Name: Fork 1 (1)
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111917,7 +112392,7 @@ GameObject:
   - component: {fileID: 1964870439}
   m_Layer: 0
   m_Name: wall bumpy and flat (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113213,7 +113688,7 @@ GameObject:
   - component: {fileID: 2002424287}
   m_Layer: 0
   m_Name: romb wall (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113523,7 +113998,7 @@ GameObject:
   - component: {fileID: 2004118296}
   m_Layer: 0
   m_Name: wall 1 (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113745,7 +114220,7 @@ GameObject:
   - component: {fileID: 2011656165}
   m_Layer: 0
   m_Name: wall straight (8)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113905,7 +114380,7 @@ GameObject:
   - component: {fileID: 2013892722}
   m_Layer: 0
   m_Name: wall straight (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114417,7 +114892,7 @@ Transform:
   m_LocalScale: {x: 0.558, y: 0.558, z: 0.558}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.261}
 --- !u!1001 &2025216457
 PrefabInstance:
@@ -114520,12 +114995,12 @@ PrefabInstance:
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9
+      value: 14.32
       objectReference: {fileID: 0}
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.6
+      value: 141.87
       objectReference: {fileID: 0}
     - target: {fileID: 4624093330706938023, guid: 3e457f1505ef20d48915fe5fa5ca56f7,
         type: 3}
@@ -114961,7 +115436,7 @@ Transform:
   m_LocalScale: {x: 0.232, y: 0.232, z: 0.232}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.714005}
 --- !u!1 &2032784778
 GameObject:
@@ -115204,7 +115679,7 @@ Transform:
   m_LocalScale: {x: 0.232, y: 0.232, z: 0.232}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.714005}
 --- !u!1 &2039255930
 GameObject:
@@ -115219,7 +115694,7 @@ GameObject:
   - component: {fileID: 2039255933}
   m_Layer: 0
   m_Name: wall 1
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115441,7 +115916,7 @@ GameObject:
   - component: {fileID: 2040840793}
   m_Layer: 0
   m_Name: wall bumpy and flat (19)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115803,7 +116278,7 @@ GameObject:
   - component: {fileID: 2064400369}
   m_Layer: 0
   m_Name: wall straight (10)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115963,7 +116438,7 @@ GameObject:
   - component: {fileID: 2065496245}
   m_Layer: 0
   m_Name: romb wall (40)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116273,7 +116748,7 @@ GameObject:
   - component: {fileID: 2069996776}
   m_Layer: 0
   m_Name: Fork 2
-  m_TagString: Untagged
+  m_TagString: Constant Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116714,7 +117189,7 @@ GameObject:
   - component: {fileID: 2077375348}
   m_Layer: 0
   m_Name: wall bump (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117109,7 +117584,7 @@ GameObject:
   - component: {fileID: 2091059611}
   m_Layer: 0
   m_Name: wall edge (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117426,7 +117901,7 @@ GameObject:
   - component: {fileID: 2096762869}
   m_Layer: 0
   m_Name: wall slide (26)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117716,7 +118191,7 @@ GameObject:
   - component: {fileID: 2099479287}
   m_Layer: 0
   m_Name: wall bumpy and flat (1)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118054,7 +118529,7 @@ GameObject:
   - component: {fileID: 2108602727}
   m_Layer: 0
   m_Name: wall bumpy and flat (28)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118335,7 +118810,7 @@ GameObject:
   - component: {fileID: 2115352366}
   m_Layer: 0
   m_Name: wall 1 (16)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118638,7 +119113,7 @@ GameObject:
   - component: {fileID: 2119421485}
   m_Layer: 0
   m_Name: wall bump (4)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118800,7 +119275,7 @@ GameObject:
   - component: {fileID: 2119718634}
   m_Layer: 0
   m_Name: wall bumpy and flat (2)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119324,7 +119799,7 @@ GameObject:
   - component: {fileID: 2127816529}
   m_Layer: 0
   m_Name: romb wall (26)
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119634,7 +120109,7 @@ GameObject:
   - component: {fileID: 2139648551}
   m_Layer: 0
   m_Name: wall bump
-  m_TagString: Untagged
+  m_TagString: Landscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

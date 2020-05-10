@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        foreach(Sound s in sounds)
+        foreach (Sound s in sounds)
         {
             s.audioSrc = gameObject.AddComponent<AudioSource>();
             s.audioSrc.clip = s.clip;
@@ -27,5 +27,10 @@ public class AudioManager : MonoBehaviour
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
         s.audioSrc.Stop();
+    }
+
+    public void OnHover()
+    {
+        Play("ButtonHover");
     }
 }

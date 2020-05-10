@@ -15,13 +15,15 @@ public class Buttons : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
-
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            LevelOne();
+            if(SceneManager.GetActiveScene().name == "YouLose" || SceneManager.GetActiveScene().name == "CreditsScene")
+            {
+                Menu();
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
 
     }

@@ -13,6 +13,7 @@ TagManager:
   - Constant Obstacle
   - Plastic Cluster
   - Wheel
+  - AntiPlastic
   layers:
   - Default
   - TransparentFX

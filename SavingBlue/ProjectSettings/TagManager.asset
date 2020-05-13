@@ -10,6 +10,8 @@ TagManager:
   - Net
   - MovingObstacle
   - Trigger
+  - Wheel
+  - Constant Obstacles
   layers:
   - Default
   - TransparentFX

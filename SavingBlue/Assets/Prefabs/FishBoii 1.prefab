@@ -216,10 +216,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotateSpeed: 0
   CurrentSpeed: 1
-  fishMouth: {fileID: 0}
-  Body: {fileID: 0}
+  buttons: {fileID: 0}
+  fishMouth: {fileID: 3273080737936284162}
+  Body: {fileID: 3273080737068850219}
   levelControl: {fileID: 0}
   movingObstacleBehaviour: {fileID: 0}
+  fin: {fileID: 3273080737903008203}
   rotAmount: 3
   SlowDownTime: 2
   StunnedTime: 0

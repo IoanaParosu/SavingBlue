@@ -972,6 +972,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367582737}
   m_CullTransparentMesh: 0
+--- !u!1001 &379146407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1865559731651681144, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.data[8].name
+      value: ButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.data[8].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dbbb1df958d8fa8469caac969b7dfb0c, type: 3}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.data[8].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.data[8].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681145, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: sounds.Array.data[8].Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.0195913
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865559731651681146, guid: f3a6bc2a73b619148816079601ffa725,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3a6bc2a73b619148816079601ffa725, type: 3}
 --- !u!1 &470096716
 GameObject:
   m_ObjectHideFlags: 0

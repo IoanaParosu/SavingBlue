@@ -184,7 +184,7 @@ public class MovementFish : MonoBehaviour
         }
         else if(collision.name == "FinishLine")
         {
-            buttons.WinScene();
+            buttons.EducationalScene();
         }
         if (collision.gameObject.tag == "Pushable")
         {

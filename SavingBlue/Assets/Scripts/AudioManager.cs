@@ -33,4 +33,9 @@ public class AudioManager : MonoBehaviour
     {
         Play("ButtonHover");
     }
+    public void ChangeVolume(string name, float volume)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.audioSrc.volume = volume;
+    }
 }

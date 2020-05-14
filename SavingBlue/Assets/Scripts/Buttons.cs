@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
     bool changing = false;
-    public float delay = 3;
+    public float delay = 2;
 
     public GameObject fade;
     // Start is called before the first frame update
@@ -40,6 +40,11 @@ public class Buttons : MonoBehaviour
     public void Credits()
     {
         SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void EducationalScene()
+    {
+        SceneManager.LoadScene("CutsceneScene");
     }
 
     public void LoseScene()

@@ -36,7 +36,11 @@ public class NetScript : MonoBehaviour
 
         rb.velocity = new Vector2(0, NetSpeed);
 
-        distance = fishPos.transform.position.y - transform.position.y;
+        if(fishPos != null)
+        {
+            distance = fishPos.transform.position.y - transform.position.y;
+        }
+        
 
         if(distance < 20 && distance > 10)
         {

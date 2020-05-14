@@ -55,6 +55,8 @@ public class Buttons : MonoBehaviour
     {
         changing = true;
 
+        FindObjectOfType<AudioManager>().Play("ButtonSound");
+
         Instantiate(fade, Vector3.zero, Quaternion.identity);
 
         yield return new WaitForSeconds(delay);

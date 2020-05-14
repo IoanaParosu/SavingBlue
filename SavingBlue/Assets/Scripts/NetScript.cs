@@ -10,14 +10,11 @@ public class NetScript : MonoBehaviour
     public float AccelerationTime;
     public Rigidbody2D rb;
     public FishMouth fishMouth;
-    public Transform fishPos;
-    float distance;   
+   
     void Start()
     {
         NetSpeed = 1.0f;
         AccelerationTime = 5.0f;
-        FindObjectOfType<AudioManager>().ChangeVolume("FishNet", 0.3f);
-        FindObjectOfType<AudioManager>().Play("FishNet");
     }
 
    
@@ -32,19 +29,6 @@ public class NetScript : MonoBehaviour
             AccelerationTime = 5.0f;
         }
 
-        distance = fishPos.transform.position.y - transform.position.y;
-
-
-        if(distance < 20 && distance > 10)
-        {
-            FindObjectOfType<AudioManager>().ChangeVolume("FishNet", 0.65f);
-        }
-        else if(distance < 10)
-        {
-            FindObjectOfType<AudioManager>().ChangeVolume("FishNet", 1f);
-        }
-
-        Debug.Log("distance: " + distance);
 
         rb.velocity = new Vector2(0, NetSpeed);
     }

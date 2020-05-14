@@ -29,12 +29,6 @@ public class AudioManager : MonoBehaviour
         s.audioSrc.Stop();
     }
 
-    public void ChangeVolume(string name, float volume)
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.audioSrc.volume = volume;
-    }
-
     public void OnHover()
     {
         Play("ButtonHover");

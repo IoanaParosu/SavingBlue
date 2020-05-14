@@ -42,14 +42,14 @@ public class MovementFish : MonoBehaviour
     {
 
 
-        SlowDownTime -= Time.deltaTime;
-        {
-            if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish
+            SlowDownTime -= Time.deltaTime;
             {
-                CurrentSpeed = CurrentSpeed - 0.10f;
-                SlowDownTime = 0.25f;
+                if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish
+                {
+                    CurrentSpeed = CurrentSpeed - 0.10f;
+                    SlowDownTime = 0.25f;
+                }
             }
-        }
 
 
         if (Stunned == true)
@@ -61,7 +61,7 @@ public class MovementFish : MonoBehaviour
                 StunnedTime = 3.0f;
                 Stunned = false;
             }
-
+           
         }
 
 
@@ -83,6 +83,7 @@ public class MovementFish : MonoBehaviour
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
         if (playerInput < 0)
         {
+            
             MoveFunc(playerInput * -1);
             Rotate(playerInput);
             Accelerate();
@@ -91,11 +92,11 @@ public class MovementFish : MonoBehaviour
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
         else if (playerInput > 0)
         {
-
+            
             MoveFunc(playerInput);
             Rotate(playerInput);
             Accelerate();
-            RotateFin(playerInput);        
+            RotateFin(playerInput);
         }
         transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         //TestTest
@@ -111,13 +112,13 @@ public class MovementFish : MonoBehaviour
         rb.rotation += rotAmount * input;
         
     }
-    void RotateFin(float input)            
+    void RotateFin(float input)
     {
         //if (shouldRotate)
         //{
-            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + input);
+        Debug.Log("Before: " + fin.transform.eulerAngles.z);
+            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
             Debug.Log("After: "+ fin.transform.eulerAngles.z);
-            
         //}
     }
     //Common accelerate function, which increase the speed

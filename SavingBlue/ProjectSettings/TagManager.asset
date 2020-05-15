@@ -12,6 +12,7 @@ TagManager:
   - Trigger
   - Wheel
   - Constant Obstacles
+  - Plastic Cluster
   layers:
   - Default
   - TransparentFX

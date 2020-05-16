@@ -8,9 +8,13 @@ public class CutsceneText : MonoBehaviour
     string[] text = new string[6];
 
     public Text storyText;
+    public Buttons buttons;
+    public GameObject fade;
 
     int textPos = 0;
+
     public float[] textTime = new float[6];
+    public float delay = 2;
     public float fadeTime;
     public float timeBetween;
 
@@ -26,6 +30,7 @@ public class CutsceneText : MonoBehaviour
 
         storyText.text = text[0];
         StartCoroutine(Fade(textTime[0], textTime[1], textTime[2], textTime[3], textTime[4], textTime[5], fadeTime, timeBetween));
+        
     }
 
     // Update is called once per frame
@@ -67,11 +72,10 @@ public class CutsceneText : MonoBehaviour
         yield return new WaitForSeconds(timeB);
         StartCoroutine(FadeTextToFullAlpha(fadeTime, storyText));
         yield return new WaitForSeconds(time6);
-        StartCoroutine(FadeTextToZeroAlpha(fadeTime, storyText));
-        yield return new WaitForSeconds(fadeTime);
-        ChangeText();
-        yield return new WaitForSeconds(timeB);
-        StartCoroutine(FadeTextToFullAlpha(fadeTime, storyText));
+
+        Instantiate(fade, Vector3.zero, Quaternion.identity);
+        yield return new WaitForSeconds(delay);
+        buttons.Credits();
     }
 
     void ChangeText()

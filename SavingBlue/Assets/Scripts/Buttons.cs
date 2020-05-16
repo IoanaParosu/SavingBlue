@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
     bool changing = false;
-    public float delay = 3;
+    public float delay = 2;
 
     public GameObject fade;
     // Start is called before the first frame update
@@ -42,6 +42,11 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("CreditsScene");
     }
 
+    public void EducationalScene()
+    {
+        SceneManager.LoadScene("CutsceneScene");
+    }
+
     public void LoseScene()
     {
         SceneManager.LoadScene("YouLose");
@@ -54,6 +59,8 @@ public class Buttons : MonoBehaviour
     IEnumerator ChangeScene()
     {
         changing = true;
+
+        FindObjectOfType<AudioManager>().Play("ButtonSound");
 
         Instantiate(fade, Vector3.zero, Quaternion.identity);
 

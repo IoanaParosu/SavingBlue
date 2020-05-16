@@ -64,7 +64,7 @@ public class MovementFish : MonoBehaviour
            
         }
 
-
+        
         //if (fin.transform.rotation.z <= 0.15f || fin.transform.rotation.z >= 0.99f)
         //{
         //    Debug.Log("Im False NOWW");
@@ -184,11 +184,25 @@ public class MovementFish : MonoBehaviour
         }
         else if(collision.name == "FinishLine")
         {
-            buttons.WinScene();
+            buttons.EducationalScene();
         }
-       
+        if (collision.gameObject.tag == "Pushable")
+        {
+            FindObjectOfType<AudioManager>().Play("Pushable Object");
+        }
+        else if(collision.gameObject.tag == "Pushable Exit")
+        {
+             FindObjectOfType<AudioManager>().Stop("Pushable Object");
+        }
+        if(collision.gameObject.tag == "Current Enter")
+        {
+            FindObjectOfType<AudioManager>().Play("Currents");
+        }
+        if(collision.gameObject.tag == "Current Exit")
+        {
+            FindObjectOfType<AudioManager>().Stop("Currents");
+        }
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "MovingObstacle")
@@ -197,18 +211,11 @@ public class MovementFish : MonoBehaviour
             Stunned = true;
         }
 
-        if (collision.gameObject.tag == "Constant Obstacle")
-        {
-            FindObjectOfType<AudioManager>().Play("Obstacle");
-        }
-        if(collision.gameObject.tag == "Plastic Cluster")
-        {
-            FindObjectOfType<AudioManager>().Play("Pushable Object");
-        }
         if(collision.gameObject.tag == "Landscape")
         {
             FindObjectOfType<AudioManager>().Play("WallSfx");
         }
+
         if (collision.gameObject.tag == "Wheel")
         {
             FindObjectOfType<AudioManager>().Play("WheelSfx");

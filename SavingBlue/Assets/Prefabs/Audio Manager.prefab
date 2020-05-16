@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1865559731651681144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1865559731651681146}
+  - component: {fileID: 1865559731651681145}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1865559731651681146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865559731651681144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.82, y: 7.0195913, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865559731651681145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865559731651681144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b454920e5521984b813fc64c602f644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: eatFoodSfx
+    clip: {fileID: 8300000, guid: bbe4db6e16f5b0d4582126f0a34c2899, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: eatPlasticSfx
+    clip: {fileID: 8300000, guid: 0a0be83509b5900418e94d57306af94c, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: Obstacle
+    clip: {fileID: 8300000, guid: 50b405e16e83c0c4bb05d0cbffbbed92, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: Pushable Object
+    clip: {fileID: 8300000, guid: af4d125f18948304e8850a48c2c651c7, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: WallSfx
+    clip: {fileID: 8300000, guid: 16a196aa3ee7a8b4994b883c33a52614, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: WheelSfx
+    clip: {fileID: 8300000, guid: 7ead6a5178681294da094178fd720063, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    audioSrc: {fileID: 0}
+  - name: Currents
+    clip: {fileID: 8300000, guid: 353fa8863b0b0804ead6b17d2c261317, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 1
+    audioSrc: {fileID: 0}
+  - name: FishNet
+    clip: {fileID: 8300000, guid: b091e8259749c7a47addca62ee36867f, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 1
+    audioSrc: {fileID: 0}

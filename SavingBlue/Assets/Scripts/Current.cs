@@ -15,7 +15,9 @@ public class Current : MonoBehaviour
     private float heading;
 
     Transform move;
+    
     Vector3 dir = Vector3.zero;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +29,7 @@ public class Current : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
     private void OnTriggerStay2D(Collider2D collider)
     {

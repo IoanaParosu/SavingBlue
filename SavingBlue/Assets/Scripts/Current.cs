@@ -6,13 +6,22 @@ public class Current : MonoBehaviour
 {
     public float x = 0;
     public float y = 1;
+
+    public Transform startPoint;
+    public Transform endPoint;
+
     public float strength = 10;
+
+    private float heading;
+
     Transform move;
-    Vector3 dir = new Vector3(0, 1, 0);
+    Vector3 dir = Vector3.zero;
     // Start is called before the first frame update
     void Start()
     {
-         
+        var heading = endPoint.position - startPoint.position;
+        var distance = heading.magnitude;
+        dir = heading / distance;
     }
 
     // Update is called once per frame

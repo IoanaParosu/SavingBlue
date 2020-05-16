@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/NewLevel.unity
     guid: 643487ad70f36a94b9ac23ba8c9b8cdf
   - enabled: 1
-    path: Assets/Scenes/YouWin.unity
-    guid: 140c8d946d62b8341a4f697a0b4c5b00
-  - enabled: 1
     path: Assets/Scenes/CutsceneScene.unity
     guid: d6947eb2b6959874fa48bac24819c070
   - enabled: 1

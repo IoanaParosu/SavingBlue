@@ -14,10 +14,14 @@ TagManager:
   - Plastic Cluster
   - Wheel
   - AntiPlastic
+<<<<<<< Updated upstream
   - Pushable
   - Pushable Exit
   - Current Enter
   - Current Exit
+=======
+  - CanRings
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

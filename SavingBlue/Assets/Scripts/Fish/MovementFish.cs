@@ -26,6 +26,12 @@ public class MovementFish : MonoBehaviour
 
     public Rigidbody2D rb;
     bool slowed;
+
+    bool stuck;
+    bool flag;
+    int finCounter = 0;
+    GameObject canRings;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +56,10 @@ public class MovementFish : MonoBehaviour
                     SlowDownTime = 0.25f;
                 }
             }
-
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            stuck = true;
+        }
 
         if (Stunned == true)
         {
@@ -64,7 +73,16 @@ public class MovementFish : MonoBehaviour
            
         }
 
+<<<<<<< Updated upstream
         
+=======
+        if(stuck == true)
+        {
+            Stuck();
+        }
+
+
+>>>>>>> Stashed changes
         //if (fin.transform.rotation.z <= 0.15f || fin.transform.rotation.z >= 0.99f)
         //{
         //    Debug.Log("Im False NOWW");
@@ -116,9 +134,9 @@ public class MovementFish : MonoBehaviour
     {
         //if (shouldRotate)
         //{
-        Debug.Log("Before: " + fin.transform.eulerAngles.z);
+        //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            Debug.Log("After: "+ fin.transform.eulerAngles.z);
+            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed
@@ -202,6 +220,17 @@ public class MovementFish : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Stop("Currents");
         }
+<<<<<<< Updated upstream
+=======
+        if (collision.gameObject.tag == "CanRings" && canRings == null)
+        {
+            stuck = true;
+            canRings = collision.gameObject;
+            canRings.transform.parent = gameObject.transform;
+            Debug.Log(stuck);
+        }
+
+>>>>>>> Stashed changes
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -228,7 +257,32 @@ public class MovementFish : MonoBehaviour
 
        CurrentSpeed = 0;
         rb.rotation = 0;
+    }
 
+    private void Stuck()
+    {
 
+        if(CurrentSpeed > 0.1)
+        {
+            CurrentSpeed -= 2 * Time.deltaTime;
+        }
+
+        if(flag == true && Input.GetAxis("Mouse X") > 2)
+        {
+            finCounter++;
+            flag = !flag;
+        }
+        else if(flag == false && Input.GetAxis("Mouse X") < -2)
+        {
+            finCounter++;
+            flag = !flag;
+        }
+        if(finCounter >= 5)
+        {
+            stuck = false;
+            Debug.Log(stuck);
+            canRings.transform.parent = null;
+            finCounter = 0;
+        }
     }
 }

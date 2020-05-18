@@ -22,6 +22,7 @@ public class FishMouth : MonoBehaviour
     {
         //spR = GetComponent<SpriteRenderer>();
         mouth.enabled = false;
+        //healthBar = FindObjectOfType<HealthBar>().GetComponent<HealthBar>();
         healthBar.SetMaxTox(maxTox);
         currentTox = 0;
         currentFood = 1;
@@ -68,6 +69,7 @@ public class FishMouth : MonoBehaviour
     {
         if(collision.tag == "Food")
         {
+            FindObjectOfType<AudioManager>().Play("eatFoodSfx");
             Debug.Log("Yum");
             if (currentFood != 5)
             {
@@ -79,16 +81,23 @@ public class FishMouth : MonoBehaviour
         }
         else if(collision.tag == "Plastic")
         {
+            //FindObjectOfType<AudioManager>().Play("eatPlasticSfx");
+
             TakeDamage();
             
+            Destroy(collision.gameObject);
+        }
+        else if(collision.tag == "AntiPlastic")
+        {
+            PlasticDown();
+
             Destroy(collision.gameObject);
         }
     }
 
     private void TakeDamage()
     {
-        currentTox++;
-        healthBar.SetTox(currentTox);
+        PlasticUp();
         if(currentTox > 4)
         {
             Die();
@@ -109,10 +118,14 @@ public class FishMouth : MonoBehaviour
         return currentFood;
     }
 
-    public void SetMaxFood()
+    public void PlasticUp()
     {
-        
+        currentTox++;
+        healthBar.SetTox(currentTox);
     }
-    
-
+    public void PlasticDown()
+    {
+        currentTox--;
+        healthBar.SetTox(currentTox);
+    }
 }

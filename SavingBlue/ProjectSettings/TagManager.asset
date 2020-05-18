@@ -10,9 +10,14 @@ TagManager:
   - Net
   - MovingObstacle
   - Trigger
-  - Wheel
-  - Constant Obstacles
+  - Constant Obstacle
   - Plastic Cluster
+  - Wheel
+  - AntiPlastic
+  - Pushable
+  - Pushable Exit
+  - Current Enter
+  - Current Exit
   layers:
   - Default
   - TransparentFX
@@ -22,8 +27,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Pushable Enter
+  - Pushable Exit
   - 
   - 
   - 
@@ -49,4 +54,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 1234346273
     locked: 0

@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+    bool changing = false;
+    public float delay = 2;
+
+    public GameObject fade;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,14 +18,9 @@ public class Buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-
+        if (Input.GetKeyDown(KeyCode.E) && changing == false)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-        else if (Input.GetKeyDown(KeyCode.F))
-        {
-            LevelOne();
+            StartCoroutine(ChangeScene());
         }
 
     }
@@ -43,6 +42,11 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("CreditsScene");
     }
 
+    public void EducationalScene()
+    {
+        SceneManager.LoadScene("CutsceneScene");
+    }
+
     public void LoseScene()
     {
         SceneManager.LoadScene("YouLose");
@@ -50,5 +54,24 @@ public class Buttons : MonoBehaviour
     public void WinScene()
     {
         SceneManager.LoadScene("YouWin");
+    }
+
+    IEnumerator ChangeScene()
+    {
+        changing = true;
+
+        FindObjectOfType<AudioManager>().Play("ButtonSound");
+
+        Instantiate(fade, Vector3.zero, Quaternion.identity);
+
+        yield return new WaitForSeconds(delay);
+        if (SceneManager.GetActiveScene().name == "YouLose" || SceneManager.GetActiveScene().name == "CreditsScene")
+        {
+            Menu();
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

@@ -7,7 +7,7 @@ public class MovementFish : MonoBehaviour
     public float RotateSpeed;
     public float CurrentSpeed = 1.0f;
     bool Stunned;
-    bool shouldRotate;
+    //bool shouldRotate;
 
     public Buttons buttons;
     public FishMouth fishMouth;
@@ -30,7 +30,7 @@ public class MovementFish : MonoBehaviour
     void Start()
     {
         slowed = false;
-        shouldRotate = true;
+        //shouldRotate = true;
         SlowDownTime = 0.25f;
         StunnedTime = 3.0f;
         currentFood = fishMouth.GetCurrentFood();
@@ -64,16 +64,16 @@ public class MovementFish : MonoBehaviour
            
         }
 
-
-        if (fin.transform.rotation.z <= 0.15f || fin.transform.rotation.z >= 0.99f)
-        {
-            Debug.Log("Im False NOWW");
-            shouldRotate = false;
-        }
-        else
-        {
-            shouldRotate = true;
-        }
+        
+        //if (fin.transform.rotation.z <= 0.15f || fin.transform.rotation.z >= 0.99f)
+        //{
+        //    Debug.Log("Im False NOWW");
+        //    shouldRotate = false;
+        //}
+        //else
+        //{
+        //    shouldRotate = true;
+        //}
 
 
 
@@ -114,11 +114,12 @@ public class MovementFish : MonoBehaviour
     }
     void RotateFin(float input)
     {
-        if (shouldRotate)
-        {
-            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput * 3);
-            Debug.Log(fin.transform.rotation.z);
-        }
+        //if (shouldRotate)
+        //{
+        Debug.Log("Before: " + fin.transform.eulerAngles.z);
+            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
+            Debug.Log("After: "+ fin.transform.eulerAngles.z);
+        //}
     }
     //Common accelerate function, which increase the speed
     void Accelerate()
@@ -183,16 +184,41 @@ public class MovementFish : MonoBehaviour
         }
         else if(collision.name == "FinishLine")
         {
-            buttons.WinScene();
+            buttons.EducationalScene();
         }
-       
+        if (collision.gameObject.tag == "Pushable")
+        {
+            FindObjectOfType<AudioManager>().Play("Pushable Object");
+        }
+        else if(collision.gameObject.tag == "Pushable Exit")
+        {
+             FindObjectOfType<AudioManager>().Stop("Pushable Object");
+        }
+        if(collision.gameObject.tag == "Current Enter")
+        {
+            FindObjectOfType<AudioManager>().Play("Currents");
+        }
+        if(collision.gameObject.tag == "Current Exit")
+        {
+            FindObjectOfType<AudioManager>().Stop("Currents");
+        }
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "MovingObstacle")
         {
+            FindObjectOfType<AudioManager>().Play("Obstacle");
             Stunned = true;
+        }
+
+        if(collision.gameObject.tag == "Landscape")
+        {
+            FindObjectOfType<AudioManager>().Play("WallSfx");
+        }
+
+        if (collision.gameObject.tag == "Wheel")
+        {
+            FindObjectOfType<AudioManager>().Play("WheelSfx");
         }
     }
 

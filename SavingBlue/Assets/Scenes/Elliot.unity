@@ -463,7 +463,12 @@ PrefabInstance:
     - target: {fileID: 2374765976644002043, guid: bccac8251a1e8ac4c8ea082c5f4f64a6,
         type: 3}
       propertyPath: powerSwimSensitivity
-      value: 2
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2374765976644002043, guid: bccac8251a1e8ac4c8ea082c5f4f64a6,
+        type: 3}
+      propertyPath: CurrentSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5599268354124612725, guid: bccac8251a1e8ac4c8ea082c5f4f64a6,
         type: 3}
@@ -607,35 +612,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5006694750197894410, guid: 0dfbf77acf356664aabaa6d78999ab50,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006694750197894410, guid: 0dfbf77acf356664aabaa6d78999ab50,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006694750197894410, guid: 0dfbf77acf356664aabaa6d78999ab50,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006694750197894410, guid: 0dfbf77acf356664aabaa6d78999ab50,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.36488515
-      objectReference: {fileID: 0}
     - target: {fileID: 9100550589152456244, guid: 0dfbf77acf356664aabaa6d78999ab50,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9350345
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 9100550589152456244, guid: 0dfbf77acf356664aabaa6d78999ab50,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.4476638
+      value: 8.35
       objectReference: {fileID: 0}
     - target: {fileID: 9100550589152456244, guid: 0dfbf77acf356664aabaa6d78999ab50,
         type: 3}

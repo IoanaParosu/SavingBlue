@@ -257,7 +257,7 @@ public class MovementFish : MonoBehaviour
     {
         if(CurrentSpeed > 0.15f)
         {
-            CurrentSpeed -= 0.015f;
+            CurrentSpeed -= 0.015f + (0.01f * CurrentSpeed);
             rotAmount = 0.2f;
         }
 

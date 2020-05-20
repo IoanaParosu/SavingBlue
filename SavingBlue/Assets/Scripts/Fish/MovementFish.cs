@@ -23,6 +23,12 @@ public class MovementFish : MonoBehaviour
     public float MaxSpeed;
     private int currentFood;
 
+    private bool flag;
+    public float powerSwimSensitivity;
+    private int swimAmount;
+    public int powerSwimAmount;
+    private bool stuck;
+    private GameObject canRings;
 
     public Rigidbody2D rb;
     bool slowed;
@@ -51,6 +57,15 @@ public class MovementFish : MonoBehaviour
                 }
             }
 
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            stuck = true;
+        }
+
+        if(stuck == true)
+        {
+            Stuck();
+        }
 
         if (Stunned == true)
         {
@@ -202,6 +217,12 @@ public class MovementFish : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Stop("Currents");
         }
+        if(collision.gameObject.tag == "Can Rings" && canRings == null)
+        {
+            stuck = true;
+            canRings = collision.gameObject;
+            canRings.transform.parent = transform;
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -230,5 +251,42 @@ public class MovementFish : MonoBehaviour
         rb.rotation = 0;
 
 
+    }
+
+    private void Stuck()
+    {
+        if(CurrentSpeed > 0.15f)
+        {
+            CurrentSpeed -= 0.015f + (0.01f * CurrentSpeed);
+            rotAmount = 0.2f;
+        }
+
+        if (flag)
+        {
+            if(Input.GetAxis("Mouse X") > powerSwimSensitivity)
+            {
+                swimPlus();
+            }
+        }
+        else if (!flag)
+        {
+            if(Input.GetAxis("Mouse X") < -powerSwimSensitivity)
+            {
+                swimPlus();
+            }
+        }
+        if(swimAmount >= powerSwimAmount)
+        {
+            stuck = false;
+            rotAmount = 3;
+            canRings.transform.parent = null;
+            swimAmount = 0;
+        }
+    }
+
+    private void swimPlus()
+    {
+        swimAmount++;
+        flag = !flag;
     }
 }

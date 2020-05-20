@@ -18,6 +18,7 @@ TagManager:
   - Pushable Exit
   - Current Enter
   - Current Exit
+  - Can Rings
   layers:
   - Default
   - TransparentFX

@@ -44,7 +44,7 @@ public class Buttons : MonoBehaviour
 
     public void EducationalScene()
     {
-        SceneManager.LoadScene("CutsceneScene");
+        StartCoroutine(ChangeScene());
     }
 
     public void LoseScene()
@@ -60,7 +60,10 @@ public class Buttons : MonoBehaviour
     {
         changing = true;
 
-        FindObjectOfType<AudioManager>().Play("ButtonSound");
+        if(SceneManager.GetActiveScene().name != "NewLevelByRatmir")
+        {
+            FindObjectOfType<AudioManager>().Play("ButtonSound");
+        }
 
         Instantiate(fade, Vector3.zero, Quaternion.identity);
 

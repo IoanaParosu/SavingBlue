@@ -46,8 +46,6 @@ public class MovementFish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
             SlowDownTime -= Time.deltaTime;
             {
                 if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish

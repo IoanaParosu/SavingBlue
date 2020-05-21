@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 6f563b3a3b196624abcc21c29f8c1518
   - enabled: 1
-    path: Assets/Scenes/NewLevel.unity
-    guid: 643487ad70f36a94b9ac23ba8c9b8cdf
+    path: Assets/Scenes/NewLevelByRatmir.unity
+    guid: 46d956c35c1de7b47a09a7caa747fee8
   - enabled: 1
     path: Assets/Scenes/CutsceneScene.unity
     guid: d6947eb2b6959874fa48bac24819c070

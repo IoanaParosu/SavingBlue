@@ -60,7 +60,7 @@ public class Buttons : MonoBehaviour
     {
         changing = true;
 
-        FindObjectOfType<AudioManager>().Play("ButtonSound");
+        //FindObjectOfType<AudioManager>().Play("ButtonSound");
 
         Instantiate(fade, Vector3.zero, Quaternion.identity);
 

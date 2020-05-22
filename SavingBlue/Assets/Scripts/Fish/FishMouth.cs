@@ -69,7 +69,7 @@ public class FishMouth : MonoBehaviour
     {
         if(collision.tag == "Food")
         {
-            //FindObjectOfType<AudioManager>().Play("eatFoodSfx");
+            FindObjectOfType<AudioManager>().Play("eatFoodSfx");
             Debug.Log("Yum");
             if (currentFood != 5)
             {
@@ -81,7 +81,7 @@ public class FishMouth : MonoBehaviour
         }
         else if(collision.tag == "Plastic")
         {
-            //FindObjectOfType<AudioManager>().Play("eatPlasticSfx");
+            FindObjectOfType<AudioManager>().Play("eatPlasticSfx");
 
             TakeDamage();
             

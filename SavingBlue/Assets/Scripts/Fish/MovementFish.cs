@@ -133,9 +133,9 @@ public class MovementFish : MonoBehaviour
     {
         //if (shouldRotate)
         //{
-        Debug.Log("Before: " + fin.transform.eulerAngles.z);
+        //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            Debug.Log("After: "+ fin.transform.eulerAngles.z);
+            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed
@@ -160,8 +160,9 @@ public class MovementFish : MonoBehaviour
     IEnumerator SlowDown()
     {
         slowed = true;
+        Debug.Log("Slowed NOW");
         float curSpeed = CurrentSpeed;
-        CurrentSpeed = 1f;
+        CurrentSpeed = curSpeed / 1.8f;
         yield return new WaitForSeconds(2f);
         slowed = false;
     }

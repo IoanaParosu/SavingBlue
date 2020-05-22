@@ -5,20 +5,25 @@ using UnityEngine;
 public class SlowDown : MonoBehaviour
 {
     MovementFish fishMove;
-    public CircleCollider2D cc;
+    public PolygonCollider2D cc;
+    bool slowed;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
         fishMove = collision.GetComponent<MovementFish>();
-        if(fishMove != null)
+        if(fishMove != null && slowed == false)
         {
             fishMove.Slower();
+            StartCoroutine(SetInactive());
         }
     }
     IEnumerator SetInactive()
     {
+        slowed = true;
         cc.enabled = false;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(10f);
+        slowed = false;
         cc.enabled = true;
     }
 }

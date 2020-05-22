@@ -32,6 +32,9 @@ public class MovementFish : MonoBehaviour
 
     public Rigidbody2D rb;
     bool slowed;
+
+    [SerializeField] PauseMenu pauseMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +44,7 @@ public class MovementFish : MonoBehaviour
         StunnedTime = 3.0f;
         currentFood = fishMouth.GetCurrentFood();
         Debug.Log(currentFood);
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     // Update is called once per frame
@@ -94,7 +98,7 @@ public class MovementFish : MonoBehaviour
         // Get player input from triggers (L2 ranges from -0.01 to -1, R2 ranges from 0.01 to 1)
         playerInput = Input.GetAxis("Mouse X");
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
-        if (playerInput < 0)
+        if (playerInput < 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput * -1);
@@ -103,7 +107,7 @@ public class MovementFish : MonoBehaviour
             RotateFin(playerInput);
         }
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
-        else if (playerInput > 0)
+        else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput);

@@ -136,9 +136,7 @@ public class MovementFish : MonoBehaviour
     {
         //if (shouldRotate)
         //{
-        Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            Debug.Log("After: "+ fin.transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed
@@ -226,7 +224,9 @@ public class MovementFish : MonoBehaviour
         {
             stuck = true;
             canRings = collision.gameObject;
+            Destroy(canRings.GetComponent<Rigidbody2D>());
             canRings.transform.parent = transform;
+            Debug.Log("123");
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -260,10 +260,12 @@ public class MovementFish : MonoBehaviour
 
     private void Stuck()
     {
+        
         if(CurrentSpeed > 0.15f)
         {
             CurrentSpeed -= 0.015f + (0.01f * CurrentSpeed);
             rotAmount = 0.2f;
+            Debug.Log("On");
         }
 
         if (flag)
@@ -286,6 +288,7 @@ public class MovementFish : MonoBehaviour
             rotAmount = 3;
             canRings.transform.parent = null;
             swimAmount = 0;
+            Destroy(canRings);
         }
     }
 

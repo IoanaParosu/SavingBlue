@@ -16,8 +16,8 @@ public class FishMouth : MonoBehaviour
     public Buttons buttons;
     public MovementFish movementFish;
     public float FoodTimer;
-    public Animation animation;
     public Animator animator;
+    public SpriteRenderer spriteRenderer; 
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +31,8 @@ public class FishMouth : MonoBehaviour
         FoodTimer = 10.0f;
         foodBar.SetCurrentFood(currentFood);
         movementFish.SetMaxSpeed(currentFood);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.enabled = false;
 
 
     }
@@ -58,12 +60,15 @@ public class FishMouth : MonoBehaviour
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);
+            spriteRenderer.enabled = true;
             animator.SetBool("IsOpened", true);
-            animation.Play("suction");
+            
+           
         }
         else
         {
             mouth.enabled = false;
+            spriteRenderer.enabled = false;
             animator.SetBool("IsOpened", false);
             spR.material.color = new Color(1, 1, 1);
         }

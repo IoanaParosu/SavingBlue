@@ -219,7 +219,8 @@ MonoBehaviour:
   buttons: {fileID: 0}
   movementFish: {fileID: 2374765976644002043}
   FoodTimer: 0
-  animation: {fileID: 0}
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!58 &2374765975350847185
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -488,8 +489,8 @@ MonoBehaviour:
   StunnedTime: 0
   playerInput: 0
   MaxSpeed: 0
-  powerSwimSensitivity: 0
-  powerSwimAmount: 0
+  powerSwimSensitivity: 3
+  powerSwimAmount: 5
   rb: {fileID: 2374765976644002040}
 --- !u!50 &2374765976644002040
 Rigidbody2D:
@@ -657,7 +658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3979633491173390502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64, y: -3.54, z: 0}
+  m_LocalPosition: {x: -0.25, y: -3.54, z: 0}
   m_LocalScale: {x: 0.956, y: 0.956, z: 0.9565}
   m_Children: []
   m_Father: {fileID: 5599268354124612725}

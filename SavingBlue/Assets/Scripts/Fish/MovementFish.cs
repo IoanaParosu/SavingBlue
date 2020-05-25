@@ -15,6 +15,7 @@ public class MovementFish : MonoBehaviour
     public LevelControl levelControl;
     public MovingObstacleBehaviour movingObstacleBehaviour;
     public Transform fin;
+    public Animation animation;
 
     public float rotAmount;
     public float SlowDownTime;
@@ -41,11 +42,15 @@ public class MovementFish : MonoBehaviour
         StunnedTime = 3.0f;
         currentFood = fishMouth.GetCurrentFood();
         Debug.Log(currentFood);
+        animation.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+
 
 
             SlowDownTime -= Time.deltaTime;

@@ -72,7 +72,9 @@ public class FishMouth : MonoBehaviour
     {
         if(collision.tag == "Food")
         {
-            FindObjectOfType<AudioManager>().Play("eatFoodSfx");
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            audioManager.Play("eatFoodSfx");
+            audioManager.ChangePitch("eatFoodSfx", Random.Range(0.75f, 1f));
             Debug.Log("Yum");
             if (currentFood != 5)
             {

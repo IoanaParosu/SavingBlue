@@ -41,7 +41,7 @@ public class MovementFish : MonoBehaviour
         slowed = false;
         //shouldRotate = true;
         SlowDownTime = 0.25f;
-        StunnedTime = 3.0f;
+        StunnedTime = 2.0f;
         currentFood = fishMouth.GetCurrentFood();
         Debug.Log(currentFood);
         pauseMenu = FindObjectOfType<PauseMenu>();
@@ -75,7 +75,7 @@ public class MovementFish : MonoBehaviour
             StunnedTime -= Time.deltaTime;
             if (StunnedTime < 0)
             {
-                StunnedTime = 3.0f;
+                StunnedTime = 2.0f;
                 Stunned = false;
             }
            
@@ -160,7 +160,6 @@ public class MovementFish : MonoBehaviour
     IEnumerator SlowDown()
     {
         slowed = true;
-        Debug.Log("Slowed NOW");
         float curSpeed = CurrentSpeed;
         CurrentSpeed = curSpeed / 1.8f;
         yield return new WaitForSeconds(2f);
@@ -251,7 +250,7 @@ public class MovementFish : MonoBehaviour
     {
 
        CurrentSpeed = 0;
-        rb.rotation = 0;
+        //rb.rotation = 0;
 
 
     }

@@ -38,4 +38,10 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(sounds, sound => sound.name == name);
         s.audioSrc.volume = volume;
     }
+
+    public void ChangePitch(string name, float pitch)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.audioSrc.pitch = pitch;
+    }
 }

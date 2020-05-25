@@ -16,6 +16,8 @@ public class FishMouth : MonoBehaviour
     public Buttons buttons;
     public MovementFish movementFish;
     public float FoodTimer;
+    [SerializeField] PauseMenu pauseMenu;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,7 @@ public class FishMouth : MonoBehaviour
         FoodTimer = 10.0f;
         foodBar.SetCurrentFood(currentFood);
         movementFish.SetMaxSpeed(currentFood);
+        pauseMenu = FindObjectOfType<PauseMenu>();
 
 
     }
@@ -52,7 +55,7 @@ public class FishMouth : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0 ) && pauseMenu.GameIsPaused == false)
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);

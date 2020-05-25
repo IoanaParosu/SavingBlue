@@ -32,6 +32,9 @@ public class MovementFish : MonoBehaviour
 
     public Rigidbody2D rb;
     bool slowed;
+
+    [SerializeField] PauseMenu pauseMenu;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,13 +44,12 @@ public class MovementFish : MonoBehaviour
         StunnedTime = 3.0f;
         currentFood = fishMouth.GetCurrentFood();
         Debug.Log(currentFood);
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
             SlowDownTime -= Time.deltaTime;
             {
                 if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish
@@ -96,7 +98,7 @@ public class MovementFish : MonoBehaviour
         // Get player input from triggers (L2 ranges from -0.01 to -1, R2 ranges from 0.01 to 1)
         playerInput = Input.GetAxis("Mouse X");
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
-        if (playerInput < 0)
+        if (playerInput < 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput * -1);
@@ -105,7 +107,7 @@ public class MovementFish : MonoBehaviour
             RotateFin(playerInput);
         }
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
-        else if (playerInput > 0)
+        else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput);
@@ -131,9 +133,9 @@ public class MovementFish : MonoBehaviour
     {
         //if (shouldRotate)
         //{
-        Debug.Log("Before: " + fin.transform.eulerAngles.z);
+        //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            Debug.Log("After: "+ fin.transform.eulerAngles.z);
+            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed
@@ -158,8 +160,9 @@ public class MovementFish : MonoBehaviour
     IEnumerator SlowDown()
     {
         slowed = true;
+        Debug.Log("Slowed NOW");
         float curSpeed = CurrentSpeed;
-        CurrentSpeed = 1f;
+        CurrentSpeed = curSpeed / 1.8f;
         yield return new WaitForSeconds(2f);
         slowed = false;
     }

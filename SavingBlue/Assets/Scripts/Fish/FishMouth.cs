@@ -17,6 +17,7 @@ public class FishMouth : MonoBehaviour
     public MovementFish movementFish;
     public float FoodTimer;
     public Animation animation;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -57,11 +58,13 @@ public class FishMouth : MonoBehaviour
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);
+            animator.SetBool("IsOpened", true);
             animation.Play("suction");
         }
         else
         {
             mouth.enabled = false;
+            animator.SetBool("IsOpened", false);
             spR.material.color = new Color(1, 1, 1);
         }
         

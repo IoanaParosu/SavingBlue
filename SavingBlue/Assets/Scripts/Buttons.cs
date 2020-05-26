@@ -62,7 +62,8 @@ public class Buttons : MonoBehaviour
 
         if(SceneManager.GetActiveScene().name != "NewLevelByRatmir")
         {
-            FindObjectOfType<AudioManager>().Play("ButtonSound");
+            if (AudioManager.instance != null)
+            AudioManager.instance.Play("ButtonSound");
         }
 
         Instantiate(fade, Vector3.zero, Quaternion.identity);

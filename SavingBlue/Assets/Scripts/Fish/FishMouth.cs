@@ -55,7 +55,7 @@ public class FishMouth : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0 ) && pauseMenu.GameIsPaused == false)
+        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E) && pauseMenu.GameIsPaused == false)
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);

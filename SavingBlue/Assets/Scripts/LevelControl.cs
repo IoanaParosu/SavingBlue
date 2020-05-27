@@ -9,10 +9,10 @@ public class LevelControl : MonoBehaviour
     public GameObject MovingObstacle_2;
     public GameObject MovingObstacle_3;
     public GameObject MovingObstacle_4;
-    public Rigidbody2D rb1;
-    public Rigidbody2D rb2;
-    public Rigidbody2D rb3;
-    public Rigidbody2D rb4;
+     Rigidbody2D rb1;
+     Rigidbody2D rb2;
+     Rigidbody2D rb3;
+     Rigidbody2D rb4;
 
 
     void Start()
@@ -49,6 +49,7 @@ public class LevelControl : MonoBehaviour
     public void Action_four()
     {
         rb4.velocity = new Vector2(0, -1);
+        
     }
 
     public void Action_five()

@@ -63,7 +63,8 @@ public class FishMouth : MonoBehaviour
             spriteRenderer.enabled = true;
             animator.SetBool("IsOpened", true);
             
-           
+
+
         }
         else
         {
@@ -71,6 +72,7 @@ public class FishMouth : MonoBehaviour
             spriteRenderer.enabled = false;
             animator.SetBool("IsOpened", false);
             spR.material.color = new Color(1, 1, 1);
+           
         }
         
     }

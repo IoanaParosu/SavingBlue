@@ -16,8 +16,8 @@ public class FishMouth : MonoBehaviour
     public Buttons buttons;
     public MovementFish movementFish;
     public float FoodTimer;
-    public Animator animator;
-    public SpriteRenderer spriteRenderer; 
+    [SerializeField] PauseMenu pauseMenu;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +31,7 @@ public class FishMouth : MonoBehaviour
         FoodTimer = 10.0f;
         foodBar.SetCurrentFood(currentFood);
         movementFish.SetMaxSpeed(currentFood);
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.enabled = false;
+        pauseMenu = FindObjectOfType<PauseMenu>();
 
 
     }
@@ -56,23 +55,15 @@ public class FishMouth : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E) && pauseMenu.GameIsPaused == false)
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);
-            spriteRenderer.enabled = true;
-            animator.SetBool("IsOpened", true);
-            
-
-
         }
         else
         {
             mouth.enabled = false;
-            spriteRenderer.enabled = false;
-            animator.SetBool("IsOpened", false);
             spR.material.color = new Color(1, 1, 1);
-           
         }
         
     }
@@ -81,7 +72,9 @@ public class FishMouth : MonoBehaviour
     {
         if(collision.tag == "Food")
         {
-            //FindObjectOfType<AudioManager>().Play("eatFoodSfx");
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            audioManager.Play("eatFoodSfx");
+            audioManager.ChangePitch("eatFoodSfx", Random.Range(0.75f, 1f));
             Debug.Log("Yum");
             if (currentFood != 5)
             {
@@ -93,7 +86,7 @@ public class FishMouth : MonoBehaviour
         }
         else if(collision.tag == "Plastic")
         {
-            //FindObjectOfType<AudioManager>().Play("eatPlasticSfx");
+            FindObjectOfType<AudioManager>().Play("eatPlasticSfx");
 
             TakeDamage();
             

@@ -29,7 +29,7 @@ public class EdibleCluster : MonoBehaviour
         {
             pattern += edibleSeed[i];
         }
-        Debug.Log(pattern);
+        //Debug.Log(pattern);
         for (int i = 0; i < edibleSeed.Length; i++)
         {
             edibles[i].GetComponent<PickupRand>().SetSeed(edibleSeed[i]);

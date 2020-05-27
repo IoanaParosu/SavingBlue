@@ -15,7 +15,7 @@ public class MovementFish : MonoBehaviour
     public LevelControl levelControl;
     public MovingObstacleBehaviour movingObstacleBehaviour;
     public Transform fin;
-    public Animation animation;
+    public Transform direction;
 
     public float rotAmount;
     public float SlowDownTime;
@@ -33,26 +33,24 @@ public class MovementFish : MonoBehaviour
 
     public Rigidbody2D rb;
     bool slowed;
+
+    [SerializeField] PauseMenu pauseMenu;
+
     // Start is called before the first frame update
     void Start()
     {
         slowed = false;
         //shouldRotate = true;
         SlowDownTime = 0.25f;
-        StunnedTime = 3.0f;
+        StunnedTime = 2.0f;
         currentFood = fishMouth.GetCurrentFood();
         Debug.Log(currentFood);
-        animation.Play();
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
-
-
-
             SlowDownTime -= Time.deltaTime;
             {
                 if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish
@@ -78,7 +76,7 @@ public class MovementFish : MonoBehaviour
             StunnedTime -= Time.deltaTime;
             if (StunnedTime < 0)
             {
-                StunnedTime = 3.0f;
+                StunnedTime = 2.0f;
                 Stunned = false;
             }
            
@@ -101,22 +99,24 @@ public class MovementFish : MonoBehaviour
         // Get player input from triggers (L2 ranges from -0.01 to -1, R2 ranges from 0.01 to 1)
         playerInput = Input.GetAxis("Mouse X");
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
-        if (playerInput < 0)
+        if (playerInput < 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput * -1);
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
+            DirectionObject(playerInput);
         }
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
-        else if (playerInput > 0)
+        else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
         {
             
             MoveFunc(playerInput);
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
+            DirectionObject(playerInput);
         }
         transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         //TestTest
@@ -136,10 +136,17 @@ public class MovementFish : MonoBehaviour
     {
         //if (shouldRotate)
         //{
+        //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
+            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed
+
+    void DirectionObject(float input)
+    {
+        direction.position = new Vector3(direction.position.x - input / 8, Camera.main.transform.position.y + 3, 10);
+    }
     void Accelerate()
     {
         if (CurrentSpeed < MaxSpeed)
@@ -162,7 +169,7 @@ public class MovementFish : MonoBehaviour
     {
         slowed = true;
         float curSpeed = CurrentSpeed;
-        CurrentSpeed = 1f;
+        CurrentSpeed = curSpeed / 1.8f;
         yield return new WaitForSeconds(2f);
         slowed = false;
     }
@@ -224,9 +231,7 @@ public class MovementFish : MonoBehaviour
         {
             stuck = true;
             canRings = collision.gameObject;
-            Destroy(canRings.GetComponent<Rigidbody2D>());
             canRings.transform.parent = transform;
-            Debug.Log("123");
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -241,11 +246,6 @@ public class MovementFish : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("WallSfx");
         }
-
-        if (collision.gameObject.tag == "Wheel")
-        {
-            FindObjectOfType<AudioManager>().Play("WheelSfx");
-        }
     }
 
 
@@ -253,19 +253,17 @@ public class MovementFish : MonoBehaviour
     {
 
        CurrentSpeed = 0;
-        rb.rotation = 0;
+        //rb.rotation = 0;
 
 
     }
 
     private void Stuck()
     {
-        
         if(CurrentSpeed > 0.15f)
         {
             CurrentSpeed -= 0.015f + (0.01f * CurrentSpeed);
             rotAmount = 0.2f;
-            Debug.Log("On");
         }
 
         if (flag)
@@ -288,7 +286,6 @@ public class MovementFish : MonoBehaviour
             rotAmount = 3;
             canRings.transform.parent = null;
             swimAmount = 0;
-            Destroy(canRings);
         }
     }
 

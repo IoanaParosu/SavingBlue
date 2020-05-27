@@ -46,14 +46,14 @@ MonoBehaviour:
   sounds:
   - name: eatFoodSfx
     clip: {fileID: 8300000, guid: bbe4db6e16f5b0d4582126f0a34c2899, type: 3}
-    volume: 1
+    volume: 0.574
     pitch: 1
     Loop: 0
     audioSrc: {fileID: 0}
   - name: eatPlasticSfx
     clip: {fileID: 8300000, guid: 0a0be83509b5900418e94d57306af94c, type: 3}
-    volume: 1
-    pitch: 1
+    volume: 0.471
+    pitch: 0.804
     Loop: 0
     audioSrc: {fileID: 0}
   - name: Obstacle

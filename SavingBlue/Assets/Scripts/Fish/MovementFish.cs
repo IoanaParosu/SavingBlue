@@ -246,11 +246,6 @@ public class MovementFish : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("WallSfx");
         }
-
-        if (collision.gameObject.tag == "Wheel")
-        {
-            FindObjectOfType<AudioManager>().Play("WheelSfx");
-        }
     }
 
 

@@ -262,8 +262,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3909668757335943649}
   - component: {fileID: 2485826840988643230}
-  - component: {fileID: 6900250840152218412}
   - component: {fileID: 2668892017655966342}
+  - component: {fileID: 7308840269264690757}
   m_Layer: 0
   m_Name: LeftFin
   m_TagString: Untagged
@@ -278,13 +278,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445954719634340970}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.23, y: 4.003, z: 0}
   m_LocalScale: {x: 0.98035747, y: 1.2833525, z: 1.0288413}
   m_Children: []
   m_Father: {fileID: 5599268354124612725}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &2485826840988643230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -327,7 +327,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -3014733046183921323, guid: 657434c61ce49ec46b2b8178697114e8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 5.7099996, y: 7.641335}
@@ -336,7 +336,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6900250840152218412
+--- !u!95 &2668892017655966342
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445954719634340970}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 72b8df84a6b545842b69386e7cbb07f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &7308840269264690757
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,25 +423,6 @@ PolygonCollider2D:
       - {x: 0.24579881, y: -7.4157968}
       - {x: 0.43094835, y: -7.1512976}
       - {x: 0.66899776, y: -6.8074484}
---- !u!95 &2668892017655966342
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445954719634340970}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72b8df84a6b545842b69386e7cbb07f6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2374765975313900830
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,6 +561,7 @@ MonoBehaviour:
   buttons: {fileID: 0}
   movementFish: {fileID: 2374765976644002043}
   FoodTimer: 0
+  pauseMenu: {fileID: 0}
   animator: {fileID: 0}
   spriteRenderer: {fileID: 0}
 --- !u!58 &2374765975350847185
@@ -763,7 +764,7 @@ MonoBehaviour:
   movingObstacleBehaviour: {fileID: -6460924206914605990, guid: 83330c11af1e6df4eb45494a6b4ed252,
     type: 3}
   fin: {fileID: 1122546621698691447}
-  animation: {fileID: 0}
+  direction: {fileID: 0}
   rotAmount: 3
   SlowDownTime: 2
   StunnedTime: 0
@@ -772,6 +773,7 @@ MonoBehaviour:
   powerSwimSensitivity: 3
   powerSwimAmount: 5
   rb: {fileID: 2374765976644002040}
+  pauseMenu: {fileID: 0}
 --- !u!50 &2374765976644002040
 Rigidbody2D:
   serializedVersion: 4

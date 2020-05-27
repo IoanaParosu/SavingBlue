@@ -15,6 +15,7 @@ public class MovementFish : MonoBehaviour
     public LevelControl levelControl;
     public MovingObstacleBehaviour movingObstacleBehaviour;
     public Transform fin;
+    public Transform direction;
 
     public float rotAmount;
     public float SlowDownTime;
@@ -105,6 +106,7 @@ public class MovementFish : MonoBehaviour
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
+            DirectionObject(playerInput);
         }
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
         else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
@@ -114,6 +116,7 @@ public class MovementFish : MonoBehaviour
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
+            DirectionObject(playerInput);
         }
         transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         //TestTest
@@ -139,6 +142,11 @@ public class MovementFish : MonoBehaviour
         //}
     }
     //Common accelerate function, which increase the speed
+
+    void DirectionObject(float input)
+    {
+        direction.position = new Vector3(direction.position.x - input / 8, Camera.main.transform.position.y + 3, 10);
+    }
     void Accelerate()
     {
         if (CurrentSpeed < MaxSpeed)

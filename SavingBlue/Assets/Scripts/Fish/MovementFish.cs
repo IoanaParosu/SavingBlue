@@ -101,22 +101,20 @@ public class MovementFish : MonoBehaviour
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
         if (playerInput < 0 && pauseMenu.GameIsPaused == false)
         {
-            
+            //DirectionObject(playerInput);
             MoveFunc(playerInput * -1);
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
-            DirectionObject(playerInput);
         }
         // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
         else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
         {
-            
+            //DirectionObject(playerInput);
             MoveFunc(playerInput);
             Rotate(playerInput);
             Accelerate();
             RotateFin(playerInput);
-            DirectionObject(playerInput);
         }
         transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         //TestTest
@@ -130,23 +128,23 @@ public class MovementFish : MonoBehaviour
     void Rotate(float input)
     {
         rb.rotation += rotAmount * input;
-        
+        //Vector2 dir = direction.position - transform.position;
+        //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        //Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotAmount * Time.deltaTime);
     }
     void RotateFin(float input)
     {
-        //if (shouldRotate)
-        //{
-        //Debug.Log("Before: " + fin.transform.eulerAngles.z);
-            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
-        //}
+
+          fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
+
     }
     //Common accelerate function, which increase the speed
 
-    void DirectionObject(float input)
-    {
-        direction.position = new Vector3(direction.position.x - input / 8, Camera.main.transform.position.y + 3, 10);
-    }
+    //void DirectionObject(float input)
+    //{
+    //    direction.position = new Vector3(direction.position.x - input / 8, Camera.main.transform.position.y + 4, 10);
+    //}
     void Accelerate()
     {
         if (CurrentSpeed < MaxSpeed)
@@ -245,11 +243,6 @@ public class MovementFish : MonoBehaviour
         if(collision.gameObject.tag == "Landscape")
         {
             FindObjectOfType<AudioManager>().Play("WallSfx");
-        }
-
-        if (collision.gameObject.tag == "Wheel")
-        {
-            FindObjectOfType<AudioManager>().Play("WheelSfx");
         }
     }
 

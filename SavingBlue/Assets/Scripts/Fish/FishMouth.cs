@@ -121,7 +121,7 @@ public class FishMouth : MonoBehaviour
         Destroy(fish);
         //timer.StopTimer();
         //timer.SaveTime();
-        buttons.LoseScene();
+        buttons.YouLose();
     }
 
     public int GetCurrentFood()

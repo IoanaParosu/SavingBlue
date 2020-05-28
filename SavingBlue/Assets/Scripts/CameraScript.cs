@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
+    [SerializeField] AudioSource music;
     public Transform playerT;
     // Start is called before the first frame update
     void Start()
@@ -19,4 +20,9 @@ public class CameraScript : MonoBehaviour
             transform.position = new Vector3(playerT.position.x, playerT.position.y, -10);
         }
     }    
+
+    public void SetMusicVolume(float volume)
+    {
+        music.volume = volume;
+    }
 }

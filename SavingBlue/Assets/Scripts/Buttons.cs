@@ -47,6 +47,11 @@ public class Buttons : MonoBehaviour
         StartCoroutine(ChangeScene());
     }
 
+    public void YouLose()
+    {
+        StartCoroutine(ChangeScene());
+    }
+
     public void LoseScene()
     {
         SceneManager.LoadScene("YouLose");
@@ -63,7 +68,7 @@ public class Buttons : MonoBehaviour
         if(SceneManager.GetActiveScene().name != "NewLevelByRatmir")
         {
             if (AudioManager.instance != null)
-            AudioManager.instance.Play("ButtonSound");
+                AudioManager.instance.Play("ButtonSound");
         }
 
         Instantiate(fade, Vector3.zero, Quaternion.identity);

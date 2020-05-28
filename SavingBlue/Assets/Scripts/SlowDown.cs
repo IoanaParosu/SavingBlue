@@ -16,6 +16,7 @@ public class SlowDown : MonoBehaviour
         {
             fishMove.Slower();
             StartCoroutine(SetInactive());
+            Debug.Log("COLlIDED");
         }
     }
     IEnumerator SetInactive()

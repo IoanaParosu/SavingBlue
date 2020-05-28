@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteBox:
-  - {fileID: 21300000, guid: a79bfc7807833d146ad923655508f1ec, type: 3}
-  - {fileID: 21300000, guid: 1e9ac6bed8914154f8ac22f850ba35ca, type: 3}
-  - {fileID: 21300000, guid: 0cc9cf0176fbabf47815e5620cd149b5, type: 3}
-  - {fileID: 21300000, guid: 36c10afed0d0e4943955886f1d4c4f7f, type: 3}
-  - {fileID: 21300000, guid: ca0ebe317911ec24f8c14b7ad443ba21, type: 3}
+  - {fileID: 21300000, guid: 3c6114d5e89375440a1ee18afc2acfff, type: 3}
+  - {fileID: 21300000, guid: 5cc65c202d8b2774aa46a6815e10f2bc, type: 3}
+  - {fileID: 21300000, guid: cae268b5041f09c4e87edaa0752026f3, type: 3}
+  - {fileID: 21300000, guid: 8734efe9b454aa040930010353da930a, type: 3}
+  - {fileID: 21300000, guid: c7458fd1e9649dc409c54f66090a6080, type: 3}
   spr: {fileID: 8832877108522987305}

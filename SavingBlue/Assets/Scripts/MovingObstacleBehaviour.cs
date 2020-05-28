@@ -13,5 +13,6 @@ public class MovingObstacleBehaviour : MonoBehaviour
         Speed = 0;
         Rotate_Speed = 0;
         Debug.Log(123);
+       
     }
 }

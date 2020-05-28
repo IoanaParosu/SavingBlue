@@ -112,8 +112,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a79bfc7807833d146ad923655508f1ec, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 3c6114d5e89375440a1ee18afc2acfff, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 2500112493514754827}
   - component: {fileID: 2500112493514754826}
   - component: {fileID: 8662423235622622189}
-  - component: {fileID: 8662423235622622190}
+  - component: {fileID: 5260545531146361991}
   m_Layer: 0
   m_Name: Hexagon (9)
   m_TagString: Untagged
@@ -274,8 +274,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4e16b6cbfbfa60640a7a7fff8db8bc7e, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -306,7 +306,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &8662423235622622190
+--- !u!60 &5260545531146361991
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -331,21 +331,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.29999998, y: 0.099999994}
-      - {x: 0.31, y: 0.22999999}
-      - {x: 0.31, y: 0.38}
-      - {x: 0.099999994, y: 0.38}
-      - {x: -0.32999998, y: 0.29999998}
-      - {x: -0.37, y: 0.26999998}
-      - {x: -0.37, y: 0.14999999}
-      - {x: -0.28, y: -0.06}
-      - {x: -0.16, y: -0.29999998}
-      - {x: -0.089999996, y: -0.35999998}
-      - {x: 0.01, y: -0.37}
-      - {x: 0.17999999, y: -0.35999998}
-      - {x: 0.29999998, y: -0.29999998}
-      - {x: 0.31, y: -0.17}
-      - {x: 0.31, y: -0.16}
+    - - {x: 0.29999998, y: 0.14}
+      - {x: 0.17999999, y: 0.26999998}
+      - {x: 0, y: 0.34}
+      - {x: -0.07, y: 0.34}
+      - {x: -0.31, y: -0.02}
+      - {x: -0.31, y: -0.17999999}
+      - {x: -0.16, y: -0.32999998}
+      - {x: -0.07, y: -0.32999998}
+      - {x: 0.02, y: -0.28}
+      - {x: 0.16, y: -0.13}
+      - {x: 0.29999998, y: 0.04}
 --- !u!1 &2500112494184796228
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +673,7 @@ GameObject:
   - component: {fileID: 2500112494251484565}
   - component: {fileID: 2500112494251484564}
   - component: {fileID: 2500112494251484563}
-  - component: {fileID: 8662423235622622181}
+  - component: {fileID: 7817111853958238681}
   m_Layer: 0
   m_Name: Hexagon (16)
   m_TagString: Untagged
@@ -738,8 +734,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b954fced97c712d4e8db498acf3fa2ba, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c431e3a5e5aff6d49b043f8e6ae59516, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -770,7 +766,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &8662423235622622181
+--- !u!60 &7817111853958238681
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -795,21 +791,18 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.29999998, y: 0.099999994}
-      - {x: 0.31, y: 0.22999999}
-      - {x: 0.31, y: 0.38}
-      - {x: 0.099999994, y: 0.38}
-      - {x: -0.32999998, y: 0.29999998}
-      - {x: -0.37, y: 0.26999998}
-      - {x: -0.37, y: 0.14999999}
-      - {x: -0.28, y: -0.06}
-      - {x: -0.16, y: -0.29999998}
-      - {x: -0.089999996, y: -0.35999998}
-      - {x: 0.01, y: -0.37}
-      - {x: 0.17999999, y: -0.35999998}
-      - {x: 0.29999998, y: -0.29999998}
-      - {x: 0.31, y: -0.17}
-      - {x: 0.31, y: -0.16}
+    - - {x: 0.08, y: 0.31}
+      - {x: -0.02, y: 0.32999998}
+      - {x: -0.049999997, y: 0.32999998}
+      - {x: -0.099999994, y: 0.31}
+      - {x: -0.32, y: -0.089999996}
+      - {x: -0.32, y: -0.19999999}
+      - {x: -0.28, y: -0.28}
+      - {x: -0.14999999, y: -0.32}
+      - {x: -0.07, y: -0.32}
+      - {x: 0.04, y: -0.17999999}
+      - {x: 0.29999998, y: -0.02}
+      - {x: 0.29999998, y: 0.099999994}
 --- !u!1 &2500112494502133043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,8 +1360,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: be2f071f89fbe484291189e4bb1600f1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: bb7c47329685fd3409bbe6bfad89b7e0, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

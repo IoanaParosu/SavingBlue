@@ -74,7 +74,7 @@ public class NetScript : MonoBehaviour
         {
             fishMouth.Die();
             Destroy(collision.gameObject);
-            //SceneManager.LoadScene("YouLose");
+            SceneManager.LoadScene("YouLose");
         }
     }
 }

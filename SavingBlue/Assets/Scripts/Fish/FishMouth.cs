@@ -17,6 +17,8 @@ public class FishMouth : MonoBehaviour
     public MovementFish movementFish;
     public float FoodTimer;
     [SerializeField] PauseMenu pauseMenu;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
 
     // Start is called before the first frame update
@@ -59,11 +61,15 @@ public class FishMouth : MonoBehaviour
         {
             mouth.enabled = true;
             spR.material.color = new Color(0, 1, 1);
+            spriteRenderer.enabled = true;
+            animator.SetBool("IsOpened", true);
         }
         else
         {
             mouth.enabled = false;
             spR.material.color = new Color(1, 1, 1);
+            animator.SetBool("IsOpened", false);
+            spriteRenderer.enabled = false;
         }
         
     }

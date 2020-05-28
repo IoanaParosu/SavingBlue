@@ -30,6 +30,7 @@ public class MovementFish : MonoBehaviour
     public int powerSwimAmount;
     private bool stuck;
     private GameObject canRings;
+    private GameObject MovingObstacle;
 
     public Rigidbody2D rb;
     bool slowed;
@@ -72,6 +73,7 @@ public class MovementFish : MonoBehaviour
 
         if (Stunned == true)
         {
+            Debug.Log("Stun");
             Stun();
             StunnedTime -= Time.deltaTime;
             if (StunnedTime < 0)
@@ -231,18 +233,24 @@ public class MovementFish : MonoBehaviour
         {
             stuck = true;
             canRings = collision.gameObject;
+            Destroy(canRings.GetComponent<Rigidbody2D>());
             canRings.transform.parent = transform;
+            
         }
+       
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "MovingObstacle")
         {
+            MovingObstacle = collision.gameObject;
+            Debug.Log("LOGLOG");
             FindObjectOfType<AudioManager>().Play("Obstacle");
             Stunned = true;
+            Destroy(MovingObstacle.GetComponent<BoxCollider2D>());
         }
 
-        if(collision.gameObject.tag == "Landscape")
+        if (collision.gameObject.tag == "Landscape")
         {
             FindObjectOfType<AudioManager>().Play("WallSfx");
         }
@@ -286,6 +294,7 @@ public class MovementFish : MonoBehaviour
             rotAmount = 3;
             canRings.transform.parent = null;
             swimAmount = 0;
+            Destroy(canRings);
         }
     }
 

@@ -11,7 +11,7 @@ public class Current : MonoBehaviour
     public Transform endPoint;
 
     public float strength = 10;
-
+    public GameObject fish;
     private float heading;
 
     Transform move;
@@ -35,7 +35,7 @@ public class Current : MonoBehaviour
     {
         if(collider.tag == "Player")
         {
-            move = collider.transform;
+            move = fish.transform;
             Debug.Log(move.name);
             move.position += dir * strength * Time.deltaTime;
         }

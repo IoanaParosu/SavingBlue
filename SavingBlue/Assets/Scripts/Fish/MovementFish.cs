@@ -171,7 +171,7 @@ public class MovementFish : MonoBehaviour
     {
         slowed = true;
         float curSpeed = CurrentSpeed;
-        CurrentSpeed = CurrentSpeed / 3f;
+        CurrentSpeed = CurrentSpeed / 3.1f;
         yield return new WaitForSeconds(2f);
         slowed = false;
     }

@@ -50,7 +50,13 @@ public class AudioManager : MonoBehaviour
     public void Stop(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.audioSrc.Stop();
+        if (s != null)
+            s.audioSrc.Stop();
+        else
+        {
+            Debug.Log("Stop: " + name);
+
+        }
     }
 
     public void OnHover()

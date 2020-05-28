@@ -13,8 +13,6 @@ public class AudioManager : MonoBehaviour
         {
             AudioManager.instance = this;
             DontDestroyOnLoad(this.gameObject);
-
-           
         }
         else
         {

@@ -74,9 +74,9 @@ MonoBehaviour:
     pitch: 1
     Loop: 0
     audioSrc: {fileID: 0}
-  - name: WheelSfx
+  - name: Wheel
     clip: {fileID: 8300000, guid: 7ead6a5178681294da094178fd720063, type: 3}
-    volume: 1
+    volume: 0.192
     pitch: 1
     Loop: 0
     audioSrc: {fileID: 0}
@@ -91,4 +91,10 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     Loop: 1
+    audioSrc: {fileID: 0}
+  - name: Can_Rings
+    clip: {fileID: 8300000, guid: 5c0fb8e28c971be478b2ba61f4400942, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
     audioSrc: {fileID: 0}

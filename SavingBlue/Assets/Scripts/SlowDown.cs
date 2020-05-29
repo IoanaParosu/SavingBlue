@@ -11,7 +11,7 @@ public class SlowDown : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        fishMove = collision.GetComponentInParent<MovementFish>();
+        fishMove = collision.GetComponent<MovementFish>();
         if(fishMove != null && slowed == false)
         {
             fishMove.Slower();

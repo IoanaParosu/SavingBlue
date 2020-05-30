@@ -13,7 +13,7 @@ public class NetScript : MonoBehaviour
     public Transform fishPos;
     float distance;
     float volume = 0.2f;
-   
+    bool isPlaying = true;
     void Start()
     {
         NetSpeed = 1.0f;
@@ -43,16 +43,25 @@ public class NetScript : MonoBehaviour
         }
 
         AudioManager.instance.ChangeVolume("FishNet", volume);
-        //Debug.Log("volume: " + volume);
+        Debug.Log("volume: " + volume);
 
 
-        if (distance < 15 && volume < 1)
+        if (distance < 13 && volume < 1)
         {
-            volume += 0.001f;
+            if(isPlaying == false)
+            {
+                AudioManager.instance.Play("FishNet");
+            }
+            volume += 0.01f;
         }
-        else if(distance > 15 && volume > 0.001f)
+        if (distance > 13 && volume > 0.01f)
         {
-            volume -= 0.001f;
+            volume -= 0.005f;
+            if(volume < 0.05f)
+            {
+                AudioManager.instance.Stop("FishNet");
+                isPlaying = false;
+            }
         }
         //if(distance < 20 && distance > 10)
         //{
@@ -73,6 +82,7 @@ public class NetScript : MonoBehaviour
         if (collision.tag == "Player")
         {
             fishMouth.Die();
+            AudioManager.instance.Stop("FishNet");
             Destroy(collision.gameObject);
             SceneManager.LoadScene("YouLose");
         }

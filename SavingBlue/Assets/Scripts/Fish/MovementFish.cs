@@ -141,7 +141,7 @@ public class MovementFish : MonoBehaviour
         //{
         //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-        Debug.Log("Fin: " + fin.transform.eulerAngles.z + "Fish: " + transform.eulerAngles.z);
+        //Debug.Log("Fin: " + fin.transform.eulerAngles.z + "Fish: " + transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed

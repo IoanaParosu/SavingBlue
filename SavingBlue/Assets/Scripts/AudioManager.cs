@@ -13,17 +13,11 @@ public class AudioManager : MonoBehaviour
         {
             AudioManager.instance = this;
             DontDestroyOnLoad(this.gameObject);
-
-           
         }
         else
         {
             Destroy(this.gameObject);
         }
-    }
-
-    public  void Start()
-    {
         foreach (Sound s in sounds)
         {
             s.audioSrc = gameObject.AddComponent<AudioSource>();
@@ -33,6 +27,18 @@ public class AudioManager : MonoBehaviour
             s.audioSrc.loop = s.Loop;
         }
     }
+
+    //public  void Start()
+    //{
+    //    foreach (Sound s in sounds)
+    //    {
+    //        s.audioSrc = gameObject.AddComponent<AudioSource>();
+    //        s.audioSrc.clip = s.clip;
+    //        s.audioSrc.volume = s.volume;
+    //        s.audioSrc.pitch = s.pitch;
+    //        s.audioSrc.loop = s.Loop;
+    //    }
+    //}
 
     public void Play(string name)
     {

@@ -44,14 +44,14 @@ public class LevelControl : MonoBehaviour
     public void Action_three()
     {
         rb3.velocity = new Vector2(0.5f, -1);
-        FindObjectOfType<AudioManager>().Play("Can_Rings");
+        AudioManager.instance.Play("Can_Rings");
     }
 
     public void Action_four()
     {
     
         rb4.velocity = new Vector2(0, -1);
-        FindObjectOfType<AudioManager>().Play("Can_Rings");
+        AudioManager.instance.Play("Can_Rings");
     }
 
     public void Action_five()

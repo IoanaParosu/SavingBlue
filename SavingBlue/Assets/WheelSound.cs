@@ -5,10 +5,13 @@ using UnityEngine;
 public class WheelSound : MonoBehaviour
 {
     Rigidbody2D rb;
+    AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -16,7 +19,8 @@ public class WheelSound : MonoBehaviour
     {
         if(rb.angularVelocity == 0)
         {
-            AudioManager.instance.Stop("Wheel");
+            audio.Stop();
+            //AudioManager.instance.Stop("Wheel");
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,7 +29,8 @@ public class WheelSound : MonoBehaviour
         {
             if(rb.angularVelocity != 0)
             {
-                AudioManager.instance.Play("Wheel");
+                audio.Play();
+                //AudioManager.instance.Play("Wheel");
             }
         }
     }

@@ -99,7 +99,7 @@ public class MovementFish : MonoBehaviour
 
 
         // Get player input from triggers (L2 ranges from -0.01 to -1, R2 ranges from 0.01 to 1)
-        playerInput = Input.GetAxis("Mouse X");
+        playerInput = Input.GetAxis("Mouse X"); // Use playerInput = Input.GetAxis("Mouse X") * -1; if using the controller
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
         if (playerInput < 0 && pauseMenu.GameIsPaused == false)
         {
@@ -121,6 +121,7 @@ public class MovementFish : MonoBehaviour
             DirectionObject(playerInput);
         }
         transform.position += transform.up * CurrentSpeed * Time.deltaTime;
+
         //TestTest
     }
     // Move function. Takes float as parameter, preferably players input
@@ -140,7 +141,7 @@ public class MovementFish : MonoBehaviour
         //{
         //Debug.Log("Before: " + fin.transform.eulerAngles.z);
             fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
-            //Debug.Log("After: "+ fin.transform.eulerAngles.z);
+        Debug.Log("Fin: " + fin.transform.eulerAngles.z + "Fish: " + transform.eulerAngles.z);
         //}
     }
     //Common accelerate function, which increase the speed

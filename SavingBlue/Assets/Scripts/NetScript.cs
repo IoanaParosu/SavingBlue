@@ -43,7 +43,7 @@ public class NetScript : MonoBehaviour
         }
 
         AudioManager.instance.ChangeVolume("FishNet", volume);
-        Debug.Log("volume: " + volume);
+        //Debug.Log("volume: " + volume);
 
 
         if (distance < 13 && volume < 1)
@@ -52,7 +52,7 @@ public class NetScript : MonoBehaviour
             {
                 AudioManager.instance.Play("FishNet");
             }
-            volume += 0.01f;
+            volume += 0.05f;
         }
         if (distance > 13 && volume > 0.01f)
         {

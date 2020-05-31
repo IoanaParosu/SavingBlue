@@ -10,12 +10,14 @@ public class FishMouth : MonoBehaviour
     public FoodBar foodBar;
     public int maxTox;
     int currentTox;
+    private bool IsPlayingSound;
     public int currentFood;
     public GameObject fish;
     public Timer timer;
     public Buttons buttons;
     public MovementFish movementFish;
     public float FoodTimer;
+    public float SoundTimer;
     [SerializeField] PauseMenu pauseMenu;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -24,6 +26,8 @@ public class FishMouth : MonoBehaviour
     public Animator fishAnimation2;
     public Animator fishAnimation3;
     MovementFish movement;
+
+
 
 
     // Start is called before the first frame update
@@ -36,6 +40,8 @@ public class FishMouth : MonoBehaviour
         currentTox = 0;
         currentFood = 1;
         FoodTimer = 10.0f;
+        SoundTimer = 1.0f;
+        IsPlayingSound = false;
         foodBar.SetCurrentFood(currentFood);
         movementFish.SetMaxSpeed(currentFood);
         pauseMenu = FindObjectOfType<PauseMenu>();
@@ -60,6 +66,12 @@ public class FishMouth : MonoBehaviour
             }
         }
 
+        if(IsPlayingSound == true)
+        {
+            SoundTimer -= Time.deltaTime;
+        }
+
+        CheckMouthSound();
 
         if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E) && pauseMenu.GameIsPaused == false)
         {
@@ -67,6 +79,12 @@ public class FishMouth : MonoBehaviour
             spR.material.color = new Color(0, 1, 1);
             spriteRenderer.enabled = true;
             animator.SetBool("IsOpened", true);
+            if (SoundTimer == 1.0f)
+            {
+                FindObjectOfType<AudioManager>().Play("MouthSound");
+                IsPlayingSound = true;
+            }
+
         }
         else
         {
@@ -74,6 +92,8 @@ public class FishMouth : MonoBehaviour
             spR.material.color = new Color(1, 1, 1);
             animator.SetBool("IsOpened", false);
             spriteRenderer.enabled = false;
+            //FindObjectOfType<AudioManager>().Stop("MouthSound");
+            
         }
         
     }
@@ -153,5 +173,14 @@ public class FishMouth : MonoBehaviour
     {
         currentTox--;
         healthBar.SetTox(currentTox);
+    }
+
+    public void CheckMouthSound()
+    {
+        if (SoundTimer < 0)
+        {
+            IsPlayingSound = false;
+            SoundTimer = 1.0f;
+        }
     }
 }

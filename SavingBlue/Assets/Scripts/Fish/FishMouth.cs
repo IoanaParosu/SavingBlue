@@ -66,12 +66,12 @@ public class FishMouth : MonoBehaviour
             }
         }
 
-        if(IsPlayingSound)
+        if (IsPlayingSound == true)
         {
             SoundTimer -= Time.deltaTime;
         }
 
-        
+        CheckMouthSound();
 
         if (Input.GetKey(KeyCode.Joystick1Button0) || Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E) && pauseMenu.GameIsPaused == false)
         {
@@ -79,7 +79,7 @@ public class FishMouth : MonoBehaviour
             spR.material.color = new Color(0, 1, 1);
             spriteRenderer.enabled = true;
             animator.SetBool("IsOpened", true);
-            if (SoundTimer > 1.0f)
+            if (SoundTimer == 1.0f)
             {
                 FindObjectOfType<AudioManager>().Play("MouthSound");
                 IsPlayingSound = true;
@@ -93,7 +93,6 @@ public class FishMouth : MonoBehaviour
             spR.material.color = new Color(1, 1, 1);
             animator.SetBool("IsOpened", false);
             spriteRenderer.enabled = false;
-            SoundTimer = 1.01f;
             
         }
         
@@ -173,6 +172,13 @@ public class FishMouth : MonoBehaviour
         currentTox--;
         healthBar.SetTox(currentTox);
     }
-
+    public void CheckMouthSound()
+    {
+        if (SoundTimer < 0)
+        {
+            IsPlayingSound = false;
+            SoundTimer = 1.0f;
+        }
+    }
 
 }

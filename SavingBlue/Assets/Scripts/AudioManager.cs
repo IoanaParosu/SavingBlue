@@ -72,7 +72,13 @@ public class AudioManager : MonoBehaviour
     public void ChangeVolume(string name, float volume)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.audioSrc.volume = volume;
+        if (s != null)
+            s.audioSrc.volume = volume;
+        else
+        {
+            Debug.Log("PLay: " + name);
+
+        }
     }
 
     public void ChangePitch(string name, float pitch)

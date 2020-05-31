@@ -54,7 +54,7 @@ public class MovementFish : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            SlowDownTime -= Time.deltaTime;
+        SlowDownTime -= Time.deltaTime;
             {
                 if (SlowDownTime <= 0.0f && CurrentSpeed >= 0.0f)  //Decrease the speed of the fish
                 {
@@ -130,6 +130,7 @@ public class MovementFish : MonoBehaviour
         {
             transform.position += transform.up * Time.deltaTime;
         }
+        Debug.Log("speed: " +CurrentSpeed);
 
         //TestTest
     }
@@ -149,7 +150,7 @@ public class MovementFish : MonoBehaviour
         //if (shouldRotate)
         //{
         //Debug.Log("Before: " + fin.transform.eulerAngles.z);
-            fin.transform.eulerAngles = new Vector3(fin.transform.eulerAngles.x, fin.transform.eulerAngles.y, fin.transform.eulerAngles.z + playerInput);
+            fin.transform.localEulerAngles = new Vector3(fin.transform.localEulerAngles.x, fin.transform.localEulerAngles.y, Mathf.Clamp(fin.transform.localEulerAngles.z + (playerInput * 2), 140, 220));
         //Debug.Log("Fin: " + fin.transform.eulerAngles.z + "Fish: " + transform.eulerAngles.z);
         //}
     }
@@ -188,7 +189,10 @@ public class MovementFish : MonoBehaviour
 
     public void SetMaxSpeed(int FoodLevel)
     {
-        MaxSpeed = FoodLevel + 1;
+        if (MaxSpeed < 3)
+        {
+            MaxSpeed = FoodLevel + 1;
+        }
     }
 
     public void SetCurrentFood(int FoodLevel)

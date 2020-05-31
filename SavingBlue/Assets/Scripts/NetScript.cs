@@ -17,12 +17,14 @@ public class NetScript : MonoBehaviour
     public Animator fishAnimation3;
     public Rigidbody2D fishRB;
     MovementFish movement;
+    AudioSource audio;
     bool isDead;
     void Start()
     {
         NetSpeed = 1.0f;
         AccelerationTime = 5.0f;
         movement = GameObject.FindObjectOfType<MovementFish>();
+        audio = GetComponent<AudioSource>();
     }
 
    
@@ -45,9 +47,13 @@ public class NetScript : MonoBehaviour
             {
                 fishPos.transform.position = new Vector2(fishPos.transform.position.x, transform.position.y + 3.2f);
             }
-            if (fishRB.rotation < 90)
+            if (fishRB.rotation < 90 && fishRB.rotation >= 0)
             {
                 fishRB.rotation += 0.12f;
+            }
+            else if(fishRB.rotation < 0 && fishRB.rotation > -90)
+            {
+                fishRB.rotation -= 0.12f;
             }
         }
     }
@@ -70,8 +76,9 @@ public class NetScript : MonoBehaviour
         fishAnimation3.enabled = false;
         movement.enabled = false;
         AudioManager.instance.Stop("FishNet");
-        yield return new WaitForSeconds(1f);
-        AudioManager.instance.Play("Death");
+        //yield return new WaitForSeconds(0.5f);
+        audio.Play();
+        //AudioManager.instance.Play("Death");
 
         yield return new WaitForSeconds(2f);
 

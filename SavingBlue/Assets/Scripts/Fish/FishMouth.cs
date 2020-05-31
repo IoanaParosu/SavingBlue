@@ -21,6 +21,11 @@ public class FishMouth : MonoBehaviour
     [SerializeField] PauseMenu pauseMenu;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    public SpriteRenderer deadeyes;
+    public Animator fishAnimation1;
+    public Animator fishAnimation2;
+    public Animator fishAnimation3;
+    MovementFish movement;
 
 
 
@@ -40,8 +45,7 @@ public class FishMouth : MonoBehaviour
         foodBar.SetCurrentFood(currentFood);
         movementFish.SetMaxSpeed(currentFood);
         pauseMenu = FindObjectOfType<PauseMenu>();
-
-
+        movement = FindObjectOfType<MovementFish>();
     }
 
     // Update is called once per frame
@@ -131,18 +135,29 @@ public class FishMouth : MonoBehaviour
         PlasticUp();
         if(currentTox > 4)
         {
-            Die();
+            StartCoroutine(Die());
         }
     }
 
-    public void Die()
+    IEnumerator Die()
     {
+        deadeyes.enabled = true;
+        fishAnimation1.enabled = false;
+        fishAnimation2.enabled = false;
+        fishAnimation3.enabled = false;
+        movement.enabled = false;
+        AudioManager.instance.Stop("FishNet");
+        AudioManager.instance.Play("Death");
+
+        yield return new WaitForSeconds(2f);
+
         Destroy(gameObject);
         Destroy(fish);
         //timer.StopTimer();
         //timer.SaveTime();
         buttons.LoseScene();
     }
+
 
     public int GetCurrentFood()
     {

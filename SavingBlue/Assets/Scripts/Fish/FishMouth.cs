@@ -145,7 +145,7 @@ public class FishMouth : MonoBehaviour
         fishAnimation1.enabled = false;
         fishAnimation2.enabled = false;
         fishAnimation3.enabled = false;
-        movement.enabled = false;
+        movement.isDead = true;
         AudioManager.instance.Stop("FishNet");
         AudioManager.instance.Play("Death");
 
@@ -153,8 +153,6 @@ public class FishMouth : MonoBehaviour
 
         Destroy(gameObject);
         Destroy(fish);
-        //timer.StopTimer();
-        //timer.SaveTime();
         buttons.LoseScene();
     }
 

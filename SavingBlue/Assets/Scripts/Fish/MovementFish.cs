@@ -34,6 +34,8 @@ public class MovementFish : MonoBehaviour
 
     public Rigidbody2D rb;
     bool slowed;
+    public bool isDead = false;
+
 
     [SerializeField] PauseMenu pauseMenu;
 
@@ -101,26 +103,33 @@ public class MovementFish : MonoBehaviour
         // Get player input from triggers (L2 ranges from -0.01 to -1, R2 ranges from 0.01 to 1)
         playerInput = Input.GetAxis("Mouse X"); // Use playerInput = Input.GetAxis("Mouse X") * -1; if using the controller
         // Checks if player input was L2, if so rotate player clockwise and move forward the same speed as the input value
-        if (playerInput < 0 && pauseMenu.GameIsPaused == false)
+        if(!isDead)
         {
-            
-            MoveFunc(playerInput * -1);
-            Rotate(playerInput);
-            Accelerate();
-            RotateFin(playerInput);
-            DirectionObject(playerInput);
+            if (playerInput < 0 && pauseMenu.GameIsPaused == false)
+            {
+
+                MoveFunc(playerInput * -1);
+                Rotate(playerInput);
+                Accelerate();
+                RotateFin(playerInput);
+                DirectionObject(playerInput);
+            }
+            // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
+            else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
+            {
+
+                MoveFunc(playerInput);
+                Rotate(playerInput);
+                Accelerate();
+                RotateFin(playerInput);
+                DirectionObject(playerInput);
+            }
+            transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         }
-        // Checks if player input was R2, if so rotate player counterclockwise and move forward the same speed as the input value
-        else if (playerInput > 0 && pauseMenu.GameIsPaused == false)
+        else if(isDead)
         {
-            
-            MoveFunc(playerInput);
-            Rotate(playerInput);
-            Accelerate();
-            RotateFin(playerInput);
-            DirectionObject(playerInput);
+            transform.position += transform.up * Time.deltaTime;
         }
-        transform.position += transform.up * CurrentSpeed * Time.deltaTime;
 
         //TestTest
     }

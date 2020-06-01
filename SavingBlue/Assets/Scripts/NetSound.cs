@@ -37,7 +37,7 @@ public class NetSound : MonoBehaviour
         }
         if (distance > 13 && volume > 0.01f)
         {
-            volume -= 0.01f;
+            volume -= 0.003f;
             Debug.Log("volume: " + volume);
             AudioManager.instance.ChangeVolume("FishNet", volume);
             Debug.Log("Lowering");

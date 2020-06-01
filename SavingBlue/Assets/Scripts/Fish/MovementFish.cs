@@ -189,7 +189,7 @@ public class MovementFish : MonoBehaviour
 
     public void SetMaxSpeed(int FoodLevel)
     {
-        if (MaxSpeed < 3)
+        if (MaxSpeed < 4)
         {
             MaxSpeed = FoodLevel + 1;
         }

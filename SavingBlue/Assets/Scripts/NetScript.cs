@@ -35,7 +35,7 @@ public class NetScript : MonoBehaviour
 
         if (AccelerationTime <= 0.0f) //Decrease the speed of the fish
         {
-            NetSpeed = NetSpeed + 0.15f;
+            NetSpeed = NetSpeed + 0.12f;
             AccelerationTime = 5.0f;
         }
 

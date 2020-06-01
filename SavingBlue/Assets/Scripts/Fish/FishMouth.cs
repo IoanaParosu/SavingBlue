@@ -26,6 +26,7 @@ public class FishMouth : MonoBehaviour
     public Animator fishAnimation2;
     public Animator fishAnimation3;
     MovementFish movement;
+    AudioSource audio;
 
 
 
@@ -46,6 +47,7 @@ public class FishMouth : MonoBehaviour
         movementFish.SetMaxSpeed(currentFood);
         pauseMenu = FindObjectOfType<PauseMenu>();
         movement = FindObjectOfType<MovementFish>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -81,7 +83,7 @@ public class FishMouth : MonoBehaviour
             animator.SetBool("IsOpened", true);
             if (SoundTimer == 1.0f)
             {
-                FindObjectOfType<AudioManager>().Play("MouthSound");
+                audio.Play();
                 IsPlayingSound = true;
             }
 

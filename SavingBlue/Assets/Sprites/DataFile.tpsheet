@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7cf08f793883d3d942cea309c6a90652:a6fcc68d524651cdb21aebaf3bad71bd:7d131de07600c8914ce1295b5341fad8$
+#
+:format=40300
+:texture=BubblesSPriteSheet.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+b1;0;1613;393;435; 0.5;0.5; 0;0;0;0
+b2;393;1613;393;435; 0.5;0.5; 0;0;0;0
+b3;786;1613;393;435; 0.5;0.5; 0;0;0;0
+b4;1179;1613;393;435; 0.5;0.5; 0;0;0;0
+b5;1572;1613;393;435; 0.5;0.5; 0;0;0;0
+b6;0;1178;393;435; 0.5;0.5; 0;0;0;0
+b7;393;1178;393;435; 0.5;0.5; 0;0;0;0
+b8;786;1178;393;435; 0.5;0.5; 0;0;0;0
+b9;1179;1178;393;435; 0.5;0.5; 0;0;0;0
+b10;1572;1178;393;435; 0.5;0.5; 0;0;0;0
+b11;0;743;393;435; 0.5;0.5; 0;0;0;0
+b12;393;743;393;435; 0.5;0.5; 0;0;0;0
+b13;786;743;393;435; 0.5;0.5; 0;0;0;0
+b14;1179;743;393;435; 0.5;0.5; 0;0;0;0
+b15;1572;743;393;435; 0.5;0.5; 0;0;0;0
+b16;0;308;393;435; 0.5;0.5; 0;0;0;0

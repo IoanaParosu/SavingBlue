@@ -1530,15 +1530,46 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     speedRange: {x: 0, y: 1}
-    tilesX: 1
-    tilesY: 1
+    tilesX: 5
+    tilesY: 4
     animationType: 0
     rowIndex: 0
     cycles: 1
-    uvChannelMask: 14
-    rowMode: 1
+    uvChannelMask: -1
+    rowMode: 2
     sprites:
-    - sprite: {fileID: 21300000, guid: 0fb578b5e05d6c94d82bdf7cddf4879e, type: 3}
+    - sprite: {fileID: -7600408165569451376, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -1752456630785193957, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -1492448500287187646, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 1684828193474916641, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -5983942798792572872, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -1501905294527502657, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 5087322840429850065, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -4796601941794453655, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 6394334649102543589, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -8814312352366521754, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -3566058255241576506, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 3081511869962189730, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -4974343015096321160, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: -5305460341311303022, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 9212614315575083996, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
+    - sprite: {fileID: 4810442002458148469, guid: 29b9ed48f850a754b90e12bfedb9170f,
+        type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4767,7 +4798,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fba4e3f3019c5db4d9c13e4c136f1df9, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4801,7 +4832,7 @@ ParticleSystemRenderer:
   m_ShadowBias: 0
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
-  m_Flip: {x: 0, y: 0, z: 0}
+  m_Flip: {x: 1, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
@@ -4950,3 +4981,4 @@ MonoBehaviour:
   startPoint: {fileID: 2848165002350705406}
   endPoint: {fileID: 4140974426012913188}
   strength: 10
+  fish: {fileID: 0}

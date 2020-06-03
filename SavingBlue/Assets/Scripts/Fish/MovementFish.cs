@@ -124,6 +124,17 @@ public class MovementFish : MonoBehaviour
                 RotateFin(playerInput);
                 DirectionObject(playerInput);
             }
+            else if(playerInput == 0 && pauseMenu.GameIsPaused == false)
+            {
+                if(fin.transform.localEulerAngles.z > 180)
+                {
+                    fin.transform.localEulerAngles = new Vector3(fin.transform.localEulerAngles.x, fin.transform.localEulerAngles.y, fin.transform.localEulerAngles.z - 0.1f);
+                }
+                else if(fin.transform.localEulerAngles.z < 180)
+                {
+                    fin.transform.localEulerAngles = new Vector3(fin.transform.localEulerAngles.x, fin.transform.localEulerAngles.y, fin.transform.localEulerAngles.z + 0.1f);
+                }
+            }
             transform.position += transform.up * CurrentSpeed * Time.deltaTime;
         }
         else if(isDead)

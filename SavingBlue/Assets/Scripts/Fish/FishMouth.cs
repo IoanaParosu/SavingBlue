@@ -25,8 +25,10 @@ public class FishMouth : MonoBehaviour
     public Animator fishAnimation1;
     public Animator fishAnimation2;
     public Animator fishAnimation3;
+    public AudioSource deathSfx;
     MovementFish movement;
     AudioSource audio;
+
 
 
 
@@ -149,7 +151,7 @@ public class FishMouth : MonoBehaviour
         fishAnimation3.enabled = false;
         movement.isDead = true;
         AudioManager.instance.Stop("FishNet");
-        AudioManager.instance.Play("Death");
+        deathSfx.Play();
 
         yield return new WaitForSeconds(2f);
 

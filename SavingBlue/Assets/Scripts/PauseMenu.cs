@@ -45,6 +45,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.visible = false;
         SceneManager.LoadScene("NewLevelByRatmir");
 
     }
